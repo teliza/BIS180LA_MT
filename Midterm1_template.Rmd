@@ -1,0 +1,287 @@
+---
+title: "BIS180L Midterm"
+author: 
+date: 
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+__Spring, 2017__  
+__Available May 5__  
+__Due May 11, 1:00 PM__  
+
+__Student Name:__ Eliza Tsang
+
+__Student ID: 999606858
+
+__This exam consists of 8 questions and 85 points__
+
+## Limitations
+This exam is open book, open notes, open web
+__HOWEVER__
+You __CANNOT__ discuss the questions with any person or entity.  
+You __CANNOT__ request help from any person, online forum, listserv, chatroom, or other entity, etc.
+
+You CAN ask Gina or Professor Maloof for help or clarification.
+
+## Instructions
+
+1. Work by adding your answers to this .Rmd file
+2. For all questions provide any code that you used to answer them formatted as a code block.
+3. For the R questions the code should run and embed the answers when you knit this file.
+4. Throughout this assignment, __your code should have helpful comments and appropriate (informative) variable names.__  You will lose points if for failing to do this.
+5. When you are ready to turn in the exam, knit an html file (click the knit button), add both the .Rmd an the .html file and push to your repository.
+
+## Q1 (10 points)
+
+_Under what circumstances would you want to use WATER instead of BLAST to do an alignment?  When is BLAST a better choice?_
+
+For short sequences, WATER is able to provide more informative and complete matches. So I would use WATER if I want to have a higher chance of finding important or accurate matches. Because of the relatively slow speed of WATER, however, BLAST is faster and more efficient for long sequence alignments.
+
+## Q2 (10 points)
+
+_Plants have a family of photoreceptors known as phytochromes (phys).  The model plant Arabidopsis thaliana (A.t.) has five phytochrome genes, phyA - phyE.  Your colleague has just cloned a phytochrome (Brapa\_phy1) from Brassica rapa (B.r.) and wants to use Water to align their one B.r. phytochrome against all the Arabidopsis phy sequences.  They use the command below.  Does the command produce the results that they intended?  If not, explain what went wrong and provide corrected code._
+
+```
+water At_phytochromes.fa BrapaPhytochrome.fa -gapopen 10 -gapextend 0.5 -outfile  At_vs_Br.water
+```
+No, they should have switched the At and Br files because by putting the At file first, it only tries to match one At phytochrome to the single brapaphytochrome. We want to put the Br first so that it searches the Br phytochrome against all the At sequences and displays the results from all the alignments.
+Thus the correct sequence should be: 
+
+```
+water BrapaPhytochrome.fa At_phytochromes.fa -gapopen 10 -gapextend 0.5 -outfile  At_vs_Br.water
+```
+(I tested this in the terminal as well, the first command gave At_phyA with Brapa_phy1 only, whereas the second command showed the score of the Brapa_phy1 against all the At_phy*)
+
+## Q3 (15 points)
+
+(A) _Use the `grep` command to search through the water output file and print the search summary statistics for each comparison. That is you want output like what is shown below, but for each comparison. **Include the grep command that you ran, as well as the output**_
+
+```
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyA
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4228
+# Identity:    XXXXXXXXXXXXXXXXX
+# Similarity:  XXXXXXXXXXXXXXXXX
+# Gaps:        XXXXXXXXXXXXXXXXX
+# Score: XXXXXX
+#
+#
+#=======================================
+```
+Knowing what I'm looking for, I can specifically search for the first word in the file: "Aligned" and then use the command *-A* to search for a certain number of lines after the "Aligned" line. Luckily, it is formatted (in a organized block) in a way that I can use the command:
+
+ *grep -A 11 Aligned Br_vs_At.water* 
+ 
+ Normally, it would take a bit or trial-and-error. I would use a starting number like *-A 10* for 10 lines after the phrase or word of interest and see if I have all the information I need. But, since I was given the short example, I can count how many lines I'm looking for.
+
+The resulting search:
+
+```
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyA
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4228
+# Identity:    2374/4228 (56.1%)
+# Similarity:  2374/4228 (56.1%)
+# Gaps:        1097/4228 (25.9%)
+# Score: 5738.0
+--
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyC
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3782
+# Identity:    3116/3782 (82.4%)
+# Similarity:  3116/3782 (82.4%)
+# Gaps:         245/3782 ( 6.5%)
+# Score: 13393.5
+--
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyB
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4246
+# Identity:    2359/4246 (55.6%)
+# Similarity:  2359/4246 (55.6%)
+# Gaps:        1012/4246 (23.8%)
+# Score: 5499.5
+--
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyE
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4428
+# Identity:    2319/4428 (52.4%)
+# Similarity:  2319/4428 (52.4%)
+# Gaps:        1324/4428 (29.9%)
+# Score: 5218.5
+--
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyD
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4281
+# Identity:    2362/4281 (55.2%)
+# Similarity:  2362/4281 (55.2%)
+# Gaps:        1095/4281 (25.6%)
+# Score: 5363.5
+#====================================
+```
+
+(B) _What type of phytochrome is the B.rapa gene?  Explain your reasoning_
+
+It looks to be most similar to A.thaliana's phytochrome C. Compared to the other 4, they share the highest overall score. Also their percent identity and percent similarity are at 82.4%, compared to around ~50% with the other 4 phy genes. Additionally, there are fewer gaps (6.5% compared to ~25%). Although the length between the B.rapa and A.thaliana phyC gene is shorter, it seems to have more matches while the other 4 have roughly the same amount of relatively low values. 
+
+(C) _Are the results that you have now sufficient to determine whether you have identified a likely orthologous pair between A. thaliana and B.rapa?  Explain why or why not.  If not, what additional sequences would you need and what Water searches would you want to run?_
+
+No, to determine if the pair is orthologous, I have to run a reciprocal search. One possible search is to compare the A.thaliana phyC gene to the B.rapa genome. And run the B.rapa phy gene to the A.thaliana genome. If both their best matches is each other, then it is more likely that we have found an orthologous pair. 
+
+## Q4 (10 points)
+
+_The tomato phytochrome folder has separate fasta files for each tomato phytochrome gene.  Write a for loop that uses Water to align each of these sequence files one at a time to the Arabidopsis phytochrome file.  This should result in five separate water output files, one for each tomato sequence.  Make sure that the output files are named in an informative way (i.e. that they include the file name of the tomato sequence).  Show your code below and add the output files to your git repository._
+
+--------------------------
+
+~/Midterm_Tsang.Eliza (master) $ *cd TomatoPhytochromes/*
+
+~/M/TomatoPhytochromes (master) $ 
+*set TomatoPhy TomatoPhyA.fa TomatoPhyB2.fa TomatoPhyB1.fa TomatoPhyE.fa TomatoPhyF.fa* 
+
+~/M/TomatoPhytochromes (master) $ *for TomatoPhy in $TomatoPhy 
+                                      water At_phytochromes.fa $ TomatoPhy -gapopen 10 -gapextend 0.5 -outfile At_{$TomatoPhy}.water*
+                                      
+-------------------------------------
+
+Within the TomatoPhytochromes directory, I set the individual Tomato Phytochrome files to TomatoPhy. Then I created a for loop and ran *water* in the loop. I named the files by setting "At_...water" as the constant name and varied it using {$TomatoPhy}. 
+
+ (Formatting notes: I noticed in the html file that a thin box would form between the two "$" in my water command. I put a space between the $ and TomatoPhy in the water command to prevent that box from forming around the command line.)
+
+
+## Q5 (10 points)
+
+*You are curious if there is a general relationship between the number of mismatches and the number of gaps in the BLAST sequence alignments, and how that relates to Score.  Using the blast dataset available [here](http://jnmaloof.github.io/BIS180L_web/data/fly_worm_blast.out.gz) (this is the same one used for Assignment 3), make the plot shown [here](http://jnmaloof.github.io/BIS180L_web/images/2017Q5.png).  Remember to add the column names as shown in the [R Practice Lab](http://jnmaloof.github.io/BIS180L_web/2017/04/20/2-R-Practice/)*
+
+```{r}
+flyworm<-read.delim("/home/ubuntu/Midterm_Tsang.Eliza/fly_worm_blast.out.gz", header=F)
+colnames(flyworm) <- c("query_id",
+                        "subject_id",
+                        "pct_ident",
+                        "len",
+                        "mismatches",
+                        "gaps",
+                        "qb",
+                        "qe",
+                        "sb",
+                        "se",
+                        "E",
+                        "Score")
+```
+
+I used read.delim to read the file in a table format and then I assigned the associated column names to the table. 
+
+```{r}
+library(ggplot2)
+flywormplot<-qplot(gaps, mismatches, data=flyworm, color=log10(Score), size=I(1)) + ggtitle("BLAST mismatches vs gaps", subtitle = NULL) + xlab("number of gaps") + ylab("number of mismatches")
+
+flywormplot
+```
+
+First I loaded the ggplot2 package, and used qplot to create a plot using gaps as the x-axis input and mismatches as the y-axis input. I colored by log10 of the Score and set the dot size to 1. I added a title and labels after. 
+The second command displays the plot.
+
+## Q6 (10 points)
+
+*In the TomatoData folder find two files, "Tomato_Metadata.csv" and "Tomato_Measurements.csv".  These are measurements of various plant organs of different tomato species and strains grown under two different conditions.*
+
+(A) _Import these files  into R.  As always,take a look at the imported objects to make sure they look reasonable.  Create a merged data frame (The column that you want to merge on is "UNIQID")._
+
+```{r}
+TMeas<-read.csv("/home/ubuntu/Midterm_Tsang.Eliza/TomatoData/Tomato_Measurements.csv")
+TMeta<-read.csv("/home/ubuntu/Midterm_Tsang.Eliza/TomatoData/Tomato_Metadata.csv")
+TMerge<-merge(TMeas, TMeta, by="UNIQ_ID")
+```
+
+I read both files into the environment and then used the *merge* command and merged the two data sets *by* "UNIQ_ID." It combined and aligned the two data sets by matching the UNIQ_ID numbers. The headings on the columns are already present. 
+
+_Hint: be sure to pay attention to whether or not to use the "header = TRUE" or "header = FALSE" arguments when you read in the files_
+
+
+(B) _There are two individuals that measured plants, Dan and Pepe.  They are listed in the column `who`.  You suspect that Dan's work may not be of high quality and want to focus only on those measurements made by Pepe.  Create a new data frame that contains only those measurements made by Pepe._
+
+```{r}
+TPepe<-subset(TMerge, who=="Pepe")
+```
+
+In the TMerge file, I subset all the desired rows by indicating that I only want data that listed "Pepe" under "who."
+
+## Q7 (10 points)
+
+_The `intleng` variable is the total length of the internodes (stems) of the plant.  You are curious if there is variation in plant height by species and by treatment.  (The `trt` variable indicates the treatment with "H" indicating simulated sun and "L" indicating simulated shade).  Make a boxplot that illustrates the data for each species and treatment combination._
+
+[PepeData]
+
+```{r}
+int<- ggplot(data=TPepe,aes(x=trt,y=intleng,colour=trt)) + geom_boxplot() + facet_wrap(facets= ~ species, ncol=3)
+int
+
+int2<-int<- ggplot(data=TPepe,aes(x=species,y=intleng, colour=species)) + geom_boxplot() + facet_wrap(facets= ~ trt, ncol=3)
+int2
+```
+
+Depending on how you want to see or compare the data:
+
+The first plot separates (facets) the data by species. The x-axis is the treatment. (So probably more useful if you want to compare treatments within each individual species.)
+
+The second plot separates the data by the treatment. The x-axis is the species. (Probably easier to read for comparing the species with each other under each treatment.)
+
+For both, the numerical value y is the intleng, and I used *geom_boxplot()* to create the boxplots.
+
+## Q8 (10 points)
+
+_Calculate the mean `intleng` for each species in each treatment (each species under low light conditions and each species under high light conditions).You should NOT have to call the `mean` function 10 times._
+
+```{r}
+intlengH<-subset(TPepe, trt=="H")
+intlengL<-subset(TPepe,trt=="L")
+tapply(X=intlengL$intleng,INDEX=intlengL$species,FUN=mean,na.rm=T)
+tapply(X=intlengH$intleng,INDEX=intlengH$species,FUN=mean,na.rm=T)
+```
+
+I subsetted the two treatments (H and L) into separate files. For each file, *tapply()* applies a function to each subset of the data. The first argument provides our data set, the second argument shows that I want to categorize the data by species, and *FUN* is the function I want to apply (in this case, the mean). *na.rm* tells R to ignore missing data coded by "NA."
+
+## More Info
+
+(This is not a question)
+
+Just because I can't leave this hanging, if you want to test whether or not there are significant differences in the way the species respond to treatment you could do a two-way ANOVA as follows:
+
+```{r, eval=FALSE}
+summary(aov(intleng ~ species*trt,data=tomato.pepe))
+```
+
+The P-value for the "species:trt" term tells you that the species do respond to the treatment significantly differently

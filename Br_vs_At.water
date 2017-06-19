@@ -1,0 +1,1794 @@
+########################################
+# Program: water
+# Rundate: Mon  8 May 2017 23:39:49
+# Commandline: water
+#    [-asequence] BrapaPhytochrome.fa
+#    [-bsequence] At_phytochromes.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile Br_vs_At.water
+# Align_format: srspair
+# Report_file: Br_vs_At.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyA
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4228
+# Identity:    2374/4228 (56.1%)
+# Similarity:  2374/4228 (56.1%)
+# Gaps:        1097/4228 (25.9%)
+# Score: 5738.0
+# 
+#
+#=======================================
+
+Brapa_phy1        19 CCTC-TCCTCTCT----GGGATTCACTCACTAAA------------GTA-     50
+                     |.|| ||.|||.|    ||||     .||| |||            ||| 
+At_phyA            1 CGTCGTCGTCTGTGTTAGGGA-----GCAC-AAATAATAGAGAGGCGTAG     44
+
+Brapa_phy1        51 -ACCAAAGAAAAGATG-----------CA-------------AACTCTCA     75
+                      ||.|.|||.|||.||           ||             ||||.|.|
+At_phyA           45 CACAAGAGAGAAGGTGGTGATCGAGGCCAAGATTTAGAATTTAACTATAA     94
+
+Brapa_phy1        76 AATAAA---------------------TCGCAGGAAACGA----------     94
+                     .|.|||                     ||.||.||...||          
+At_phyA           95 CAAAAAGCCTCTGACGAGTGTGACTAGTCACAAGATCTGATCATGGCTTC    144
+
+Brapa_phy1        95 ---AAAC------------------------AAAGGTCTAAGAATGTCA-    116
+                        ||||                        ||||| ..||.||||||| 
+At_phyA          145 TTGAAACTTCTTCTTCTTCTTTCTTCTCTTTAAAGG-AAAAAAATGTCAG    193
+
+Brapa_phy1       117 --TC-AGGTAG---CAGCAATTC--CGGAAGCTGTTCAACTCGATCCAGA    158
+                       || |||..|   |||    ||  |.||.|  |.||||..|||||.||.
+At_phyA          194 GCTCTAGGCCGACTCAG----TCCTCTGAGG--GCTCAAGGCGATCAAGG    237
+
+Brapa_phy1       159 AACAACTCTCGACTTTCTTCACAAGTCCTC-GCTGATGCAAAGCTCCACG    207
+                     .|||.|.||.|..|...|.|.| ||.||.| |..|||||.||.|||||.|
+At_phyA          238 CACAGCGCTAGGATCATTGCGC-AGACCACTGTAGATGCGAAACTCCATG    286
+
+Brapa_phy1       208 -GGAGTTTCGAGGAATCCGAGC-GCTTATTCGACTACTCAGCTTCAAT--    253
+                      .|| |||.|||||.||.| || |||..||.||.||||||.|.|||.|  
+At_phyA          287 CTGA-TTTTGAGGAGTCAG-GCAGCTCCTTTGATTACTCAACCTCAGTGC    334
+
+Brapa_phy1       254 ---TCAC----------GTGAACATGC--CCACC----TCCTCGTCCTAC    284
+                        ||||          |||.|.|..|  |||||    ||         .
+At_phyA          335 GTGTCACTGGCCCGGTTGTGGAGAATCAGCCACCAAGGTC---------T    375
+
+Brapa_phy1       285 GACA----TCCCTTCCTCTTCAGACGTCTCATCTTACTTACACAAGATTC    330
+                     ||||    |.||           |||.||.|||||     ||..|.||.|
+At_phyA          376 GACAAAGTTACC-----------ACGACTTATCTT-----CATCATATAC    409
+
+Brapa_phy1       331 AGAGAGGG-ATGTTGATTCAGCCCTTTGGTTGCTTAATCGTCGTTGACGA    379
+                     ||| |||| |.|.|||||||||||||.|||||.|||.|.|.|.|.||.||
+At_phyA          410 AGA-AGGGAAAGCTGATTCAGCCCTTCGGTTGTTTACTTGCCTTGGATGA    458
+
+Brapa_phy1       380 CAAGACCCTCAAAGTAATTGCCTTTAGCGAGAACACGCA--AGAGATGTT    427
+                     .||||||.|||||||.|||||.|..|||||||  |.|||  .|||.||||
+At_phyA          459 GAAGACCTTCAAAGTTATTGCATACAGCGAGA--ATGCATCTGAGCTGTT    506
+
+Brapa_phy1       428 G-----GGTTTGTCTCCA--CACACTGTGCCTAGCATG-----GAGCAAC    465
+                     |     ||       |||  ||..|.||.|||||  ||     ||.||.|
+At_phyA          507 GACAATGG-------CCAGTCATGCAGTTCCTAG--TGTTGGCGAACACC    547
+
+Brapa_phy1       466 GTG----AGGCTCTGAGTATCGGAACTGATGT--GCAGTCTCTGTTTCAG    509
+                     .||    ||||       ||.||.||.|||.|  |.|||||   |||||.
+At_phyA          548 CTGTTCTAGGC-------ATTGGGACAGATATAAGGAGTCT---TTTCAC    587
+
+Brapa_phy1       510 T-CTCAAGGCT----CTTCTGCGTTGCAGAAAGCTGCTGACTTTGGTGAG    554
+                     | |||    ||    |.|||||.|||||||||||...||..||||  |||
+At_phyA          588 TGCTC----CTAGTGCGTCTGCATTGCAGAAAGCCCTTGGATTTG--GAG    631
+
+Brapa_phy1       555 ATTAG----TATTCTGAATCCTATCACGCTT---CACTGCAGGACTTCGG    597
+                     ||  |    |.||.|||||||   ||..|||   ||||||||||||||.|
+At_phyA          632 AT--GTCTCTCTTTTGAATCC---CATTCTTGTGCACTGCAGGACTTCTG    676
+
+Brapa_phy1       598 GTAAGCCTTTCTATGCCATTCTCCATCGGATTGAACAAG--GTCTCGTTA    645
+                     ..|||||.||.|||||.|||.||||..||.||  |||.|  |..||.|.|
+At_phyA          677 CAAAGCCCTTTTATGCGATTATCCACAGGGTT--ACAGGGAGCATCATCA    724
+
+Brapa_phy1       646 TAGATTTGGAGCCAGTG-GGTCTTGATGAGGTCCCAGTGACTGCTGCTGG    694
+                     |.||.||.||.||.||| .|.||| ||||.|||||..||||.||||||||
+At_phyA          725 TCGACTTTGAACCCGTGAAGCCTT-ATGAAGTCCCCATGACAGCTGCTGG    773
+
+Brapa_phy1       695 TGCGTTGAAGTCATACAAGCTCGCTGCTAAATCGATTTCGAGGTTGCAGG    744
+                     |||.||..|.|||||||||||||||||.|||.|.||..|.|||.||||..
+At_phyA          774 TGCCTTACAATCATACAAGCTCGCTGCCAAAGCAATCACTAGGCTGCAAT    823
+
+Brapa_phy1       745 CTTTGCCTAGTGGGAATATGTCGTTGCTCTGTGATGCTTTAGTTAAGGAA    794
+                     ||||.||.||.||||.||||.....|||.||||||.|..|.|||.|.||.
+At_phyA          824 CTTTACCCAGCGGGAGTATGGAAAGGCTTTGTGATACAATGGTTCAAGAG    873
+
+Brapa_phy1       795 GTTAGTGAGTTAACCGGGTATGATAGGGTGATGGTTTATAAGTTTCATGG    844
+                     |||..|||..|.||.||||||||.||||||||||.||||||||||||||.
+At_phyA          874 GTTTTTGAACTCACGGGGTATGACAGGGTGATGGCTTATAAGTTTCATGA    923
+
+Brapa_phy1       845 AGATGGGCATGGGGAAGTGATTGCTGAGTGCTGTAA------GGCAGACT    888
+                     |||||..||.||.||.||..|..|.||| |.|..||      |||     
+At_phyA          924 AGATGATCACGGTGAGGTTGTCTCCGAG-GTTACAAAACCTGGGC-----    967
+
+Brapa_phy1       889 TGGAACCTTATCTTGGGTTGCATTACTCGGCTACTGATATACCACAAGCC    938
+                     ||||.||||||||||||.|||||||..|.||.||.||.||.||.|||||.
+At_phyA          968 TGGAGCCTTATCTTGGGCTGCATTATCCTGCCACCGACATCCCTCAAGCA   1017
+
+Brapa_phy1       939 TCTAGATTTCTCTTTATGAGGAACAAGGTTAGGATGATTTGTGAT-----    983
+                     .|..|.|||||.|||||||.|||||||||..|||||||...||||     
+At_phyA         1018 GCCCGTTTTCTGTTTATGAAGAACAAGGTCCGGATGATAGTTGATTGCAA   1067
+
+Brapa_phy1       984 ---------TGTTCGGCTG-TTCCAGTTAAAGTAGTCCAGGACAAGAGT-   1022
+                              ||.|.||.|| |||.||            |.||.|||..| 
+At_phyA         1068 TGCAAAACATGCTAGGGTGCTTCAAG------------ATGAAAAGCTTT   1105
+
+Brapa_phy1      1023 -CTCTCACAGCCGATTACTCTCG-CTGGATCTACTCTGAGAGCTCCTCAT   1070
+                      ||.|.||     .|||| ||.| .|||.||.||.||.|||||.||.||.
+At_phyA         1106 CCTTTGAC-----CTTAC-CTTGTGTGGCTCCACCCTTAGAGCACCGCAC   1149
+
+Brapa_phy1      1071 GGCTGTCACGCGCAGTATATGAGTAATATGGGCTCAGTGGCATCTCTTGT   1120
+                     .||||.||...||||||.|||...||.||||..|||.|.||||||||.||
+At_phyA         1150 AGCTGCCATTTGCAGTACATGGCCAACATGGATTCAATTGCATCTCTGGT   1199
+
+Brapa_phy1      1121 TATGTCCG-------TAACGATCAATGGTAG--TGAGA--GTGATG----   1155
+                     ||||.|.|       ||||||     ||.||  .||||  |.||||    
+At_phyA         1200 TATGGCGGTTGTAGTTAACGA-----GGAAGATGGAGAAGGGGATGCTCC   1244
+
+Brapa_phy1      1156 AGATG---------------AACAGAGATTTGCAGACGGGTAGA-ACCTT   1189
+                     .||||               ||.|||||            .||| ||  |
+At_phyA         1245 TGATGCTACTACACAGCCTCAAAAGAGA------------AAGAGAC--T   1280
+
+Brapa_phy1      1190 ATGGGGCTTAGTGGTTTGTCATCACGCAAGTCCTAGGGTCGTCCCGTTTC   1239
+                     ||||||.||||||||||||||..|..|.|.|||.|||.|.||.||.||||
+At_phyA         1281 ATGGGGTTTAGTGGTTTGTCACAATACGACTCCGAGGTTTGTTCCATTTC   1330
+
+Brapa_phy1      1240 CTCTGAGATATGCCTGTGA-ATTCTTGACTCAGGTGTTTGGCGTGCACAT   1288
+                     ||||.||.||||||||||| .||||.| ||||.|||||||.|.|.|||.|
+At_phyA         1331 CTCTCAGGTATGCCTGTGAGTTTCTAG-CTCAAGTGTTTGCCATACACGT   1379
+
+Brapa_phy1      1289 CAACAAGGAAGCGGAATCAGCTCTTCTGTTGAAA-----------GAGAA   1327
+                     |||.|||||.|.||||    |||       ||.|           |||||
+At_phyA         1380 CAATAAGGAGGTGGAA----CTC-------GATAACCAGATGGTGGAGAA   1418
+
+Brapa_phy1      1328 GCATATTCTGCAAACTCAGA-----GTGTGCTATGTGACATGCTTTTTCG   1372
+                     |.|.|||.|||..||.||||     .|||||     ||.|||||..|.||
+At_phyA         1419 GAACATTTTGCGCACGCAGACACTCTTGTGC-----GATATGCTGATGCG   1463
+
+Brapa_phy1      1373 CAATGCACCTATAGGTATAGTCACTCAGTCTCCAAATATAATGGATCTTG   1422
+                     ..||||.||..|.|||||.||..|.||....||.||.||||||||.||||
+At_phyA         1464 TGATGCTCCACTGGGTATTGTGTCGCAAAGCCCCAACATAATGGACCTTG   1513
+
+Brapa_phy1      1423 TTAAATGTGATGGAGCAGCTCTTTATTACAGAGATAAGCT-------CTG   1465
+                     |.||||||||||||||||||||.|..||.|.|||.|||.|       |||
+At_phyA         1514 TGAAATGTGATGGAGCAGCTCTCTTGTATAAAGACAAGATATGGAAACTG   1563
+
+Brapa_phy1      1466 GG-----CTTTA--GGGGTTGCTCCTACAGAGACACAAATTAGAGATA--   1506
+                     ||     ||..|  .|.|||.|.|||.|||            ||||||  
+At_phyA         1564 GGAACAACTCCAAGTGAGTTCCACCTGCAG------------GAGATAGC   1601
+
+Brapa_phy1      1507 -TAATCGATTGGGT---TCTCAAA---AGTCAAGGAGGAGGAAACAGTGG   1549
+                      |.|| |.|||.||   |..||.|   |.||||.|             ||
+At_phyA         1602 TTCAT-GGTTGTGTGAATACCACATGGATTCAACG-------------GG   1637
+
+Brapa_phy1      1550 CGTTACCACTGAAAGTCT-AATGGAGTCTGGCTATCC--GGATGCTTCCG   1596
+                     ..|.|.||||||.|||.| .|| ||..|.||.|.|||  ||  || ||..
+At_phyA         1638 TTTGAGCACTGATAGTTTGCAT-GACGCCGGGTTTCCTAGG--GC-TCTA   1683
+
+Brapa_phy1      1597 TC-CTCGGGGAGTCAATCTGTGGAATGGCTGCCGT--ACATATAACCCAA   1643
+                     || ||||||||.||..|.|||||.|||||.||.||  ..||||.|.|.||
+At_phyA         1684 TCTCTCGGGGATTCGGTATGTGGGATGGCAGCTGTGAGGATATCATCGAA   1733
+
+Brapa_phy1      1644 AAGGTTTTCCTTTTCTGGTTCCGGTCTGGCACTGCAAAACAGATCAAG--   1691
+                     |  |...|..|||||||||||||.|||...||.|     |.|.|.|||  
+At_phyA         1734 A--GACATGATTTTCTGGTTCCGTTCTCATACCG-----CTGGTGAAGTG   1776
+
+Brapa_phy1      1692 ---TGGGGTGGTGC-AAGACATGATCCTGATGACAGAGATGGTAAAAGG-   1736
+                        |||||.||||| ||| ||||||||.|||||.||.||||.|..|||| 
+At_phyA         1777 AGATGGGGAGGTGCGAAG-CATGATCCAGATGATAGGGATGATGCAAGGA   1825
+
+Brapa_phy1      1737 --ATGCATCCTAGATCCTCGTTCAAGGCTTTTATGGAAATAGTCCGGTGG   1784
+                       |||||.||.||.||.||||||||||||||..|.|||.|.|||      
+At_phyA         1826 GAATGCACCCAAGGTCATCGTTCAAGGCTTTCCTTGAAGTGGTC------   1869
+
+Brapa_phy1      1785 AAA-------AGTATGCCCTGGGATGAC-ATGGAAATGGATGCAAT-CAA   1825
+                      ||       |||.|.||.|||.|.||| || ||.||||||||.|| ||.
+At_phyA         1870 -AAGACAAGGAGTTTACCTTGGAAGGACTAT-GAGATGGATGCCATACAC   1917
+
+Brapa_phy1      1826 TTCTCTGCAGCTGATAATAA--AAGGCTCACTGCAAGAGGA----GCATC   1869
+                     |.|| ||||.||.||..|.|  ||.|||   |.||  ||||    |    
+At_phyA         1918 TCCT-TGCAACTTATTTTGAGGAATGCT---TTCA--AGGATAGTG----   1957
+
+Brapa_phy1      1870 CAGAC-ACTGTTGTGAAT------GTGCCGCCGTTTGTGGATAATAGAGT   1912
+                      |.|| ||||.|||||||      ||     |.|||           |.|
+At_phyA         1958 -AAACTACTGATGTGAATACAAAGGT-----CATTT-----------ACT   1990
+
+Brapa_phy1      1913 CCAGAAGGTGGATG------AAATGTG-TGTTAT---------------T   1940
+                     |  ||||.|..|||      |||| || ||.|||               |
+At_phyA         1991 C--GAAGCTAAATGATCTCAAAAT-TGATGGTATACAAGAACTAGAAGCT   2037
+
+Brapa_phy1      1941 GTGAAC---GAAATGGTGCGGTTGATTGACACAGCTGCTGTTCCGATCTT   1987
+                     ||||.|   ||.|||||.||.||.|||||.||.|||.|.||.||.||.||
+At_phyA         2038 GTGACCAGTGAGATGGTTCGTTTAATTGAGACTGCTACGGTGCCAATATT   2087
+
+Brapa_phy1      1988 TGCGGCTGATGCCTCTGGTG---TTATAAACGGTTGGAATTCAAAAGCGG   2034
+                     .||||.||||   ||||.||   |..|.||.||||||||..|.|||...|
+At_phyA         2088 GGCGGTTGAT---TCTGATGGACTGGTTAATGGTTGGAACACGAAAATTG   2134
+
+Brapa_phy1      2035 CTGAGGTGACTGGGTTGGCTGTTGAACAAGCGATAGGCAAACCTGT-ATC   2083
+                     |||||.|||||||..|..|.|||||..||||.||.||.||.|.|.| .||
+At_phyA         2135 CTGAGCTGACTGGTCTTTCGGTTGATGAAGCAATCGGGAAGCATTTCCTC   2184
+
+Brapa_phy1      2084 AGATATCGTTGAAGATGATTCTGCAAT---AACCGTTAAGAACATGTTA-   2129
+                     |.| .|.||||||   ||||||.||.|   ||.||||||.|..|||.|| 
+At_phyA         2185 ACA-CTTGTTGAA---GATTCTTCAGTGGAAATCGTTAAAAGGATGCTAG   2230
+
+Brapa_phy1      2130 -----GCATTGGCTCTCCAAGGTA-----GCGAAGAACGTGGCGCC----   2165
+                          |||||.|      ||||.|     |.|.||||.||    ||    
+At_phyA         2231 AGAACGCATTAG------AAGGAACTGAGGAGCAGAATGT----CCAGTT   2270
+
+Brapa_phy1      2166 -GAGATCAGGATCAGAGCATTTGGTCCTAAAAGGAAAAGC-------AGT   2207
+                      |||||||.|| ||   |||.| ||||    |||    ||       .|.
+At_phyA         2271 TGAGATCAAGA-CA---CATCT-GTCC----AGG----GCTGATGCTGGG   2307
+
+Brapa_phy1      2208 CCTATTGAA--TTAGTCGTCAACACTTGCTGTAGCAGAGAT-ACAAGGAA   2254
+                     ||.||  ||  |||||.||.||..|.|||...||.|||||| .|.|.|||
+At_phyA         2308 CCAAT--AAGTTTAGTTGTAAATGCATGCGCAAGTAGAGATCTCCATGAA   2355
+
+Brapa_phy1      2255 TAATGTTCTTGGTGTGTGCTTCATTGGACAAGATGTTACAGGCCAGAAGA   2304
+                      ||.||..||||.|||||.||..|.|..||.|||.||||.||||||||||
+At_phyA         2356 -AACGTGGTTGGGGTGTGTTTTGTAGCCCATGATCTTACTGGCCAGAAGA   2404
+
+Brapa_phy1      2305 CGCTTATTGAGAAGTATAGCCGCG---TGCAAGGAGATTAC---GCCAGA   2348
+                     |..|.||.||.||||.||  ||||   || ||||.||||||   ||   |
+At_phyA         2405 CTGTGATGGACAAGTTTA--CGCGGATTG-AAGGTGATTACAAGGC---A   2448
+
+Brapa_phy1      2349 ATCATGTGGAGCCC----TTCAA---CACTGATCCCACCAATTTTTATGA   2391
+                     |||||       ||    |.|||   |.||||||||.|||||.|||...|
+At_phyA         2449 ATCAT-------CCAAAATCCAAACCCGCTGATCCCGCCAATATTTGGTA   2491
+
+Brapa_phy1      2392 CCACTGAGAATGGGTTATGCTCAGAGTGGAA-CGACGCGATG-CAGAAGC   2439
+                     ||..||||..|||.|..|||.|||||||||| |.| ||.||| || |||.
+At_phyA         2492 CCGATGAGTTTGGATGGTGCACAGAGTGGAATCCA-GCAATGTCA-AAGT   2539
+
+Brapa_phy1      2440 TCTCTGGTATAAGGAGAGAAGAAGCTGTGA---ATAAAATGCTTCTT-GG   2485
+                     |..|.|||.|.|.|.||||.|||   ||||   |.||||||| |||| ||
+At_phyA         2540 TAACCGGTTTGAAGCGAGAGGAA---GTGATTGACAAAATGC-TCTTAGG   2585
+
+Brapa_phy1      2486 AGAGGTTTTCACCTCAAATG---------ACTCATGCTGTCGCCT-----   2521
+                     |||.||.||         ||         |.|||||.|||||.||     
+At_phyA         2586 AGAAGTATT---------TGGGACGCAGAAGTCATGTTGTCGTCTAAAGA   2626
+
+Brapa_phy1      2522 -TCAAGA--CCATGACACGTTAACTAAACTCAGAAT--AGCTTTA-AATG   2565
+                      ||||||  ||.|    .||.|||    ||..|.||  .|||..| ||||
+At_phyA         2627 ATCAAGAAGCCTT----TGTAAAC----CTTGGGATTGTGCTGAACAATG   2668
+
+Brapa_phy1      2566 CTGTGAGTTCTGGCCAG----GAT-AACATAGAGAAGC-TTTTATTTGGC   2609
+                     ||||||       ||||    ||| .|.|||.||.|.| |||..|||  |
+At_phyA         2669 CTGTGA-------CCAGTCAAGATCCAGATAAAGTATCGTTTGCTTT--C   2709
+
+Brapa_phy1      2610 TTCTACCATCGTGATGGTAGATTCATCGAG-GCCTTGCTTTCTGCAAACA   2658
+                     || |||.|  |.|.|||.|..|...|.||| |.| ||.|.|.||..|..|
+At_phyA         2710 TT-TACAA--GAGGTGGCAAGTATGTGGAGTGTC-TGTTGTGTGTGAGTA   2755
+
+Brapa_phy1      2659 AAAGAACT-GACATGGAAGGAAAAGTTACAGGGGTTTTATGCTTTCTGCA   2707
+                     |.| |||| ||||.|.||||...|||.|||||.||.||.||.||.|||||
+At_phyA         2756 AGA-AACTGGACAGGAAAGGTGTAGTGACAGGTGTCTTCTGTTTCCTGCA   2804
+
+Brapa_phy1      2708 AGTACCTAGTCCA-GAACTCCAATACGCTCTACAGGTTCAGCGAATATCA   2756
+                     |.|..|.|| ||| ||.||.||..|.||.||.||.|||||.||..||.|.
+At_phyA         2805 ACTTGCCAG-CCATGAGCTGCAGCAAGCGCTCCATGTTCAACGTTTAGCT   2853
+
+Brapa_phy1      2757 GAGCAGGCAATGGCCTGCGCTGTCA----ACAAAATGGCATATCTCCGCC   2802
+                     ||||...|         |||.||.|    ||.||| |||   |||     
+At_phyA         2854 GAGCGAAC---------CGCAGTGAAGAGACTAAA-GGC---TCT-----   2885
+
+Brapa_phy1      2803 AACAAGTGGAGAATCCAGAAAAAGCAATATC---------CTTCCT----   2839
+                              ||.||.||.||||||..|.|||         ||..||    
+At_phyA         2886 ---------AGCATACATAAAAAGACAGATCAGGAATCCGCTATCTGGGA   2926
+
+Brapa_phy1      2840 TCAAGATTTTCTACATTCATCTGGATTAAATGA-----------------   2872
+                     |||    |.|.||||      .|||  ||||||                 
+At_phyA         2927 TCA----TGTTTACA------AGGA--AAATGATAGAGGGTACTGAATTA   2964
+
+Brapa_phy1      2873 -----AGAACAAAAGCAGCTCTTGAGTACAAGCGTGTCATG-CAGGGAGC   2916
+                          |||.||||..|.|.|.|||...||.||||.||.||| || |.|||
+At_phyA         2965 GGACCAGAGCAAAGACGGATTTTGCAAACTAGCGCGTTATGTCA-GAAGC   3013
+
+Brapa_phy1      2917 AGTTAGCCAAAGTC----ATAAGCGACTCAGACATAGAGGG---AATTG-   2958
+                     |..||..|||..||    ||    ||.||.||..|.||..|   .|||| 
+At_phyA         3014 AACTAAGCAAGATCCTCGAT----GATTCGGATCTTGAAAGCATCATTGA   3059
+
+Brapa_phy1      2959 AGGATG---GGTATGTGCAGCTGGGTTGCAGCGAATTCAGCCTTGAGGAA   3005
+                     ||||||   || ||.||.|..||      |..||||||| ||||   .||
+At_phyA         3060 AGGATGCTTGG-ATTTGGAAATG------AAAGAATTCA-CCTT---AAA   3098
+
+Brapa_phy1      3006 TCCCTGGAA-TCAGTTG-----TAAAACAAGTCATGGA--GCTGAGCATA   3047
+                     |     ||| |  ||||     |...||||||||.|.|  |.|||  |.|
+At_phyA         3099 T-----GAAGT--GTTGACTGCTTCCACAAGTCAAGTAATGATGA--AGA   3139
+
+Brapa_phy1      3048 G-AACGTAAA----GTGCAGAT--CATCTGCGATTATCC--TCAAGAAGT   3088
+                     | ||||.|||    ||.|.|||  ||..||.||    ||  ..|||||| 
+At_phyA         3140 GTAACGGAAAGAGTGTTCGGATAACAAATGAGA----CCGGAGAAGAAG-   3184
+
+Brapa_phy1      3089 TTCGTTAA----TGAGAC--TGTATGGAGATTCCTTA--AGGCTTCAGCA   3130
+                          |||    |||.||  ||||||||||  |..||  ||||||||.||
+At_phyA         3185 -----TAATGTCTGACACTTTGTATGGAGA--CAGTATTAGGCTTCAACA   3227
+
+Brapa_phy1      3131 AATCCTTTCAGAGACACTCTCAAG-------------------CAGCATA   3161
+                     |.||.|..||||     |.|||.|                   ||.|||.
+At_phyA         3228 AGTCTTGGCAGA-----TTTCATGCTGATGGCTGTAAACTTTACACCATC   3272
+
+Brapa_phy1      3162 CGG---------------TTCA-CT--CCTGCATTAAAGGGA--------   3185
+                     |||               |||| ||  ||||      |||.|        
+At_phyA         3273 CGGAGGTCAGCTAACTGTTTCAGCTTCCCTG------AGGAAGGATCAGC   3316
+
+Brapa_phy1      3186 ---------CTGTGCGTATCATTTAAGGTAATGTCACGGATAGAAGCTAT   3226
+                              ||||||  |||.|                       |||| 
+At_phyA         3317 TCGGGCGTTCTGTGC--ATCTT-----------------------GCTA-   3340
+
+Brapa_phy1      3227 AGGGAAAAGAATGAAGAGAGTAGAGCTAGAGTTCAGGATAATACA-CCCG   3275
+                                            |.||||||.|||||.|||..|| .|||
+At_phyA         3341 -----------------------ATCTAGAGATCAGGTTAACGCATACCG   3367
+
+Brapa_phy1      3276 GCACCGGGACTGCCTGACGATCTAGTAAGAGAGATGTTTCAGCCTTTGAG   3325
+                     |..|.|||| |.|||||...|.||.|||...|.||||||..|.|  ||||
+At_phyA         3368 GAGCTGGGA-TACCTGAGTTTTTACTAAACCAAATGTTTGGGAC--TGAG   3414
+
+Brapa_phy1      3326 GAAAGATACATCAAGGGAAGGATTGGGACTACACA----TAACACAGAAG   3371
+                     | |||||...|||...|||||||||.|..||   |    ||.| |.|||.
+At_phyA         3415 G-AAGATGTGTCAGAAGAAGGATTGAGCTTA---ATGGTTAGC-CGGAAA   3459
+
+Brapa_phy1      3372 ATGGTGAAACTCATGGAGGGAGGAACGTTGAGATACTTGAGAGAA--TCG   3419
+                     .|||||||.||.|||.|.||||  |.|||.|| |||||||||.||  |.|
+At_phyA         3460 CTGGTGAAGCTGATGAATGGAG--ATGTTCAG-TACTTGAGACAAGCTGG   3506
+
+Brapa_phy1      3420 GAAATGTCAGCTTTTGTAATC-CTCGCAGAATTTCCATTGCTTTGAATGC   3468
+                     ||||  |||..|||..|.||| || ||.|||.|  |..|||      .||
+At_phyA         3507 GAAA--TCAAGTTTCATTATCACT-GCGGAACT--CGCTGC------AGC   3545
+
+Brapa_phy1      3469 AACTCTCCAAG--GTCTCAATAAATAA------------TTGA-AT-AAA   3502
+                     ||    .||||  |||.|.| |||.||            |||| || |||
+At_phyA         3546 AA----ACAAGTAGTCCCCA-AAAGAAAAGGGGTCTGGCTTGATATAAAA   3590
+
+Brapa_phy1      3503 TAATCGGACGTCACTGGAT-TTCACATAAATGTATGTTAGTTACTGTAAC   3551
+                     ||       ||||||||.| |||         |.||.|.||.|||.|  |
+At_phyA         3591 TA-------GTCACTGGTTGTTC---------TTTGCTTGTAACTTT--C   3622
+
+Brapa_phy1      3552 ATAAATATAG--------GACGTT----AAT----GTAA-----TAATAT   3580
+                     .|   |||.|        ..||||    |||    ||||     .|||||
+At_phyA         3623 CT---TATCGCTTTTGTTTTCGTTTTCAAATTTCAGTAACGATGAAATAT   3669
+
+Brapa_phy1      3581 ACATACTAGATTTTGAC-CCTTCAAGCGCGGGTTGTTGGATTATATTATA   3629
+                     .|||.|   ||||  || .||||          |||||.|.|.|.||.|.
+At_phyA         3670 CCATCC---ATTT--ACATCTTC----------TGTTGAACTCTTTTCTG   3704
+
+Brapa_phy1      3630 ATACTAGGTGTA---TTGCCCGCGATGC   3654
+                     |    ||.||||   .||     |||||
+At_phyA         3705 A----AGCTGTAAATATG-----GATGC   3723
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyC
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3782
+# Identity:    3116/3782 (82.4%)
+# Similarity:  3116/3782 (82.4%)
+# Gaps:         245/3782 ( 6.5%)
+# Score: 13393.5
+# 
+#
+#=======================================
+
+Brapa_phy1         5 CAATCTACCCATTTCCTCTC-------CTCTCTGGGATTCACTCACTAA-     46
+                     ||| ||..|.|.||||||||       |||||      .||| |||||| 
+At_phyC            1 CAA-CTTACAAGTTCCTCTCTCAGCTTCTCTC------CCAC-CACTAAG     42
+
+Brapa_phy1        47 -AGTAA----CCAAAGA-----------------------AAAGATGC--     66
+                      ||.||    |||||||                       |||.|| |  
+At_phyC           43 GAGGAACGTTCCAAAGATCCCTTTCTCAGAGAATTCCCAGAAAAAT-CTT     91
+
+Brapa_phy1        67 ---------AAACTCTCA-----AATAAATC-------------------     83
+                              ||||.||.|     |||.|.||                   
+At_phyC           92 CAACAATTGAAACCCTAATGGAGAATCATTCGGATCCTTGAATCCTTTGG    141
+
+Brapa_phy1        84 -------------------------------------------------G     84
+                                                                      |
+At_phyC          142 TTTGTCTCTCACCTCCATTTCTGAAATTTCATTGCTTTGTGATTCTTCTG    191
+
+Brapa_phy1        85 CAG---------GAAACGAAAACAAAGGTCTAAGAATGTCATCAGGTAGC    125
+                     |||         |||  ||.||.||||      .|||||||||      .
+At_phyC          192 CAGATTCGTTTTGAA--GAGAAGAAAG------AAATGTCATC------G    227
+
+Brapa_phy1       126 AGCAATTCCGGAAGCTGTTCAACTCGATCCAGAAACAACTCTCGACTTTC    175
+                     |.||.|||..||||||||||.|||.||||.|||.|.|||||||||.||||
+At_phyC          228 AACACTTCACGAAGCTGTTCTACTAGATCTAGACAAAACTCTCGAGTTTC    277
+
+Brapa_phy1       176 TTCACAAGTCCTCGCTGATGCAAAGCTCCACGGGAGTTTCGAGGAATCCG    225
+                     |||||||||.||||..||.||||||||.|||||.|..|||||.|||||.|
+At_phyC          278 TTCACAAGTTCTCGTCGACGCAAAGCTACACGGAAACTTCGAAGAATCTG    327
+
+Brapa_phy1       226 AGCGCTTATTCGACTACTCAGCTTCAATTCACGTGAACATGCCCACCTCC    275
+                     ||||.|||||.|||||.|||||||||||..||.||||||||||.|   ..
+At_phyC          328 AGCGTTTATTTGACTATTCAGCTTCAATAAACTTGAACATGCCAA---GT    374
+
+Brapa_phy1       276 TCGTCCTACGACATCCCTTCCTCTTCAGACGTCTCATCTTACTTACACAA    325
+                     ||.||||..||.||.|||   |||||||..||||||.|.||||||||.||
+At_phyC          375 TCTTCCTGTGAGATTCCT---TCTTCAGCTGTCTCAACGTACTTACAGAA    421
+
+Brapa_phy1       326 GATTCAGAGAGGGATGTTGATTCAGCCCTTTGGTTGCTTAATCGTCGTTG    375
+                     ||||||||||||||||||||||||.|||||||||||.||||||||.||||
+At_phyC          422 GATTCAGAGAGGGATGTTGATTCAACCCTTTGGTTGTTTAATCGTTGTTG    471
+
+Brapa_phy1       376 ACGACAAGACCCTCAAAGTAATTGCCTTTAGCGAGAACACGCAAGAGATG    425
+                     |.||.||.|.|||.|||||.|||||||||||.||.|||||.|||||||||
+At_phyC          472 ATGAGAAAAACCTTAAAGTCATTGCCTTTAGTGAAAACACTCAAGAGATG    521
+
+Brapa_phy1       426 TTGGGTTTGTCTCCACACACTGTGCCTAGCATGGAGCAACGTGAGGCTCT    475
+                     |||||||||..||||||.||.||.||.||.||||||||.|||||.|||.|
+At_phyC          522 TTGGGTTTGATTCCACATACAGTACCAAGTATGGAGCAGCGTGAAGCTTT    571
+
+Brapa_phy1       476 GAGTATCGGAACTGATGTGCAGTCTCTGTTTCAGTCTCAAGGCTCTTCTG    525
+                     ||.|||.||||||||||||.|.||..||||||.|||||.|||.|.|||||
+At_phyC          572 GACTATAGGAACTGATGTGAAATCATTGTTTCTGTCTCCAGGTTGTTCTG    621
+
+Brapa_phy1       526 CGTTGCAGAAAGCTGCTGACTTTGGTGAGATTAGTATTCTGAATCCTATC    575
+                     |.|||.|||||||||.||||||||||||||||||||||.|||||||||||
+At_phyC          622 CTTTGGAGAAAGCTGTTGACTTTGGTGAGATTAGTATTTTGAATCCTATC    671
+
+Brapa_phy1       576 ACGCTTCACTGCAGGACTTCGGGTAAGCCTTTCTATGCCATTCTCCATCG    625
+                     ||||||||.||.|||.||||..||||||||||.|||||.|||||.|||||
+At_phyC          672 ACGCTTCATTGTAGGTCTTCAAGTAAGCCTTTTTATGCGATTCTGCATCG    721
+
+Brapa_phy1       626 GATTGAACAAGGTCTCGTTATAGATTTGGAGCCAGTGGGTCTTGATGAGG    675
+                     ||||||..|||||||.|||||||||||||||||.|||.|||.||||||||
+At_phyC          722 GATTGAGGAAGGTCTTGTTATAGATTTGGAGCCTGTGAGTCCTGATGAGG    771
+
+Brapa_phy1       676 TCCCAGTGACTGCTGCTGGTGCGTTGAAG-TCATACAAGCTCGCTGCTAA    724
+                     |.||.|||||||||||.||.|| ||.||| ||.||.|||||.||.||.||
+At_phyC          772 TGCCTGTGACTGCTGCCGGGGC-TTTAAGATCGTATAAGCTTGCGGCGAA    820
+
+Brapa_phy1       725 ATCGATTTCGAGGTTGCAGGCTTTGCCTAGTGGGAATATGTCGTTGCTCT    774
+                     |||||||||||||||||||||.|||||||||||||||||||.||||.|.|
+At_phyC          821 ATCGATTTCGAGGTTGCAGGCATTGCCTAGTGGGAATATGTTGTTGTTGT    870
+
+Brapa_phy1       775 GTGATGCTTTAGTTAAGGAAGTTAGTGAGTTAACCGGGTATGATAGGGTG    824
+                     ||||||||||.|||||||||||||||||.|||||.||.||||||||||||
+At_phyC          871 GTGATGCTTTGGTTAAGGAAGTTAGTGAATTAACTGGTTATGATAGGGTG    920
+
+Brapa_phy1       825 ATGGTTTATAAGTTTCATGGAGATGGGCATGGGGAAGTGATTGCTGAGTG    874
+                     |||||.||||||||.||||..||||||||||||||||||||||||||.||
+At_phyC          921 ATGGTGTATAAGTTCCATGAGGATGGGCATGGGGAAGTGATTGCTGAATG    970
+
+Brapa_phy1       875 CTGTAAGGCAGACTTGGAACCTTATCTTGGGTTGCATTACTCGGCTACTG    924
+                     |||...||.|||..||||||||||||||||||||||||||||.|||||||
+At_phyC          971 CTGCCGGGAAGATATGGAACCTTATCTTGGGTTGCATTACTCCGCTACTG   1020
+
+Brapa_phy1       925 ATATACCACAAGCCTCTAGATTTCTCTTTATGAGGAACAAGGTTAGGATG    974
+                     |||||||.|||||.||.||||||||.||||||||.|||||||||||||||
+At_phyC         1021 ATATACCGCAAGCTTCGAGATTTCTGTTTATGAGAAACAAGGTTAGGATG   1070
+
+Brapa_phy1       975 ATTTGTGATTGTTCGGCTGTTCCAGTTAAAGTAGTCCAGGACAAGAGTCT   1024
+                     ||||||||||||||.||.|||||.||||||||.||.||.||.||||||||
+At_phyC         1071 ATTTGTGATTGTTCAGCGGTTCCGGTTAAAGTCGTTCAAGATAAGAGTCT   1120
+
+Brapa_phy1      1025 CTCACAGCCGATTACTCTCGCTGGATCTACTCTGAGAGCTCCTCATGGCT   1074
+                     |||||||||.||.|.|||..|||||||||||.||||||||||||||||.|
+At_phyC         1121 CTCACAGCCAATAAGTCTTTCTGGATCTACTTTGAGAGCTCCTCATGGTT   1170
+
+Brapa_phy1      1075 GTCACGCGCAGTATATGAGTAATATGGGCTCAGTGGCATCTCTTGTTATG   1124
+                     |||||||.||||||||||||||||||||.||||||||.||||||||.|||
+At_phyC         1171 GTCACGCACAGTATATGAGTAATATGGGATCAGTGGCGTCTCTTGTCATG   1220
+
+Brapa_phy1      1125 TCCGTAACGATCAATGGTAGTGAGAGTGATGAGATGAACAGAGATTTGCA   1174
+                     ||.|||||.||||||||||||||.|||||||||||||||||||||||.||
+At_phyC         1221 TCTGTAACTATCAATGGTAGTGATAGTGATGAGATGAACAGAGATTTACA   1270
+
+Brapa_phy1      1175 GACGGGTAGAACCTTATGGGGCTTAGTGGTTTGTCATCACGCAAGTCCTA   1224
+                     |||.||.|||..||||||||||||.|||||||||||||||||||||||||
+At_phyC         1271 GACTGGCAGACACTTATGGGGCTTGGTGGTTTGTCATCACGCAAGTCCTA   1320
+
+Brapa_phy1      1225 GGGTCGTCCCGTTTCCTCTGAGATATGCCTGTGAATTCTTGACTCAGGTG   1274
+                     |..|.||.||||||||..|..|||||||.|||||||||||||||||.||.
+At_phyC         1321 GATTTGTTCCGTTTCCATTACGATATGCTTGTGAATTCTTGACTCAAGTA   1370
+
+Brapa_phy1      1275 TTTGGCGTGCACATCAACAAGGAAGCGGAATCAGCTCTTCTGTTGAAAGA   1324
+                     |||||||||||.||||||||.|||||||||||||||.|||||||||||||
+At_phyC         1371 TTTGGCGTGCAGATCAACAAAGAAGCGGAATCAGCTGTTCTGTTGAAAGA   1420
+
+Brapa_phy1      1325 GAAGCATATTCTGCAAACTCAGAGTGTGCTATGTGACATGCTTTTTCGCA   1374
+                     |||||.||||.||||||||||||||||||||||||||||||||||.||||
+At_phyC         1421 GAAGCGTATTTTGCAAACTCAGAGTGTGCTATGTGACATGCTTTTCCGCA   1470
+
+Brapa_phy1      1375 ATGCACCTATAGGTATAGTCACTCAGTCTCCAAATATAATGGATCTTGTT   1424
+                     |||||||.|||||||||||||||||.||.|||||||||||||||||||||
+At_phyC         1471 ATGCACCAATAGGTATAGTCACTCAATCACCAAATATAATGGATCTTGTT   1520
+
+Brapa_phy1      1425 AAATGTGATGGAGCAGCTCTTTATTACAGAGATAAGCTCTGGGCTTTAGG   1474
+                     |||||||||||||||||..|.|||||||||||.||.||||||.||.||||
+At_phyC         1521 AAATGTGATGGAGCAGCATTATATTACAGAGACAACCTCTGGTCTCTAGG   1570
+
+Brapa_phy1      1475 GGTTGCTCCTACAGAGACACAAATTAGAGATATAATCGATTGGGTTCTCA   1524
+                     .|||.||||.|||||||||||||||||||||.||||.||.||||||||||
+At_phyC         1571 AGTTACTCCCACAGAGACACAAATTAGAGATCTAATTGACTGGGTTCTCA   1620
+
+Brapa_phy1      1525 AAAGTCAAGGAGGAGGAAACAGTGGCGTTACCACTGAAAGTCTAATGGAG   1574
+                     |||||||   .||||||||||.||||.|||||||||||||||||||||||
+At_phyC         1621 AAAGTCA---TGGAGGAAACACTGGCTTTACCACTGAAAGTCTAATGGAG   1667
+
+Brapa_phy1      1575 TCTGGCTATCCGGATGCTTCCGTCCTCGGGGAGTCAATCTGTGGAATGGC   1624
+                     ||||||||||||||||||||.||.||.|||||||||||.|||||||||||
+At_phyC         1668 TCTGGCTATCCGGATGCTTCTGTTCTTGGGGAGTCAATATGTGGAATGGC   1717
+
+Brapa_phy1      1625 TGCCGTACATATAACCCAAAAGGTTTTCCTTTTCTGGTTCCGGTCTGGCA   1674
+                     |||||||.||||..||.||||.|.||||||||||||||||||||||.|||
+At_phyC         1718 TGCCGTATATATTTCCGAAAAAGATTTCCTTTTCTGGTTCCGGTCTAGCA   1767
+
+Brapa_phy1      1675 CTGCAAAACAGATCAAGTGGGGTGGTGCAAGACATGATCCTGATGACAGA   1724
+                     ||||||||||||||||||||||||||||||||||.||||||.||||||||
+At_phyC         1768 CTGCAAAACAGATCAAGTGGGGTGGTGCAAGACACGATCCTAATGACAGA   1817
+
+Brapa_phy1      1725 GATGGTAAAAGGATGCATCCTAGATCCTCGTTCAAGGCTTTTATGGAAAT   1774
+                     ||||||||.||.|||||||||||||||||.||||||||||||||||||||
+At_phyC         1818 GATGGTAAGAGAATGCATCCTAGATCCTCATTCAAGGCTTTTATGGAAAT   1867
+
+Brapa_phy1      1775 AGTCCGGTGGAAAAGTATGCCCTGGGATGACATGGAAATGGATGCAATCA   1824
+                     ||||.|||||||||||.|||||||||||||||||||||||||||||||.|
+At_phyC         1868 AGTCAGGTGGAAAAGTGTGCCCTGGGATGACATGGAAATGGATGCAATTA   1917
+
+Brapa_phy1      1825 ATTCTCTGCAGCTGATAATAAAAGGCTCACTGCAAGAGGAGCATCCAGAC   1874
+                     |||||||||||||.|||||||||||||||.||||||||||||||.||.|.
+At_phyC         1918 ATTCTCTGCAGCTAATAATAAAAGGCTCATTGCAAGAGGAGCATTCAAAG   1967
+
+Brapa_phy1      1875 ACTGTTGTGAATGTGCCGCCGTTTGTGGATAATAGAGTCCAGAAGGTGGA   1924
+                     |||||||||.||||.||.|   |||||||||||||.||.||||||||.||
+At_phyC         1968 ACTGTTGTGGATGTCCCAC---TTGTGGATAATAGGGTTCAGAAGGTAGA   2014
+
+Brapa_phy1      1925 TGAAATGTGTGTTATTGTGAACGAAATGGTGCGGTTGATTGACACAGCTG   1974
+                     ||||.||||||||||.|||||.||||||||||||||||||||.|||||.|
+At_phyC         2015 TGAATTGTGTGTTATCGTGAATGAAATGGTGCGGTTGATTGATACAGCAG   2064
+
+Brapa_phy1      1975 CTGTTCCGATCTTTGCGGCTGATGCCTCTGGTGTTATAAACGGTTGGAAT   2024
+                     |||||||.||||||||||.|||||||||||||||||||||.|||||||||
+At_phyC         2065 CTGTTCCCATCTTTGCGGTTGATGCCTCTGGTGTTATAAATGGTTGGAAT   2114
+
+Brapa_phy1      2025 TCAAAAGCGGCTGAGGTGACTGGGTTGGCTGTTGAACAAGCGATAGGCAA   2074
+                     ||.||||||||||||||.||.||.|||||.|||||||||||.||||||||
+At_phyC         2115 TCTAAAGCGGCTGAGGTAACAGGATTGGCAGTTGAACAAGCAATAGGCAA   2164
+
+Brapa_phy1      2075 ACCTGTATCAGATATCGTTGAAGATGATTCTGCAATAACCGTTAAGAACA   2124
+                     |||||||||||||.|||||||.||.|||||||.|..||||||.|||||||
+At_phyC         2165 ACCTGTATCAGATCTCGTTGAGGACGATTCTGTAGAAACCGTGAAGAACA   2214
+
+Brapa_phy1      2125 TGTTAGCATTGGCTCTCCAAGGTAGCGAAGAACGTGGCGCCGAGATCAGG   2174
+                     |||||||.|||||||||.|||||||.|||||||||||.||.|||||||||
+At_phyC         2215 TGTTAGCCTTGGCTCTCGAAGGTAGTGAAGAACGTGGTGCTGAGATCAGG   2264
+
+Brapa_phy1      2175 ATCAGAGCATTTGGTCCTAAAAGGAAAAGCAGTCCTATTGAATTAGTCGT   2224
+                     |||||||||||||||||||||||||||||||||||..||||.|||||.||
+At_phyC         2265 ATCAGAGCATTTGGTCCTAAAAGGAAAAGCAGTCCGGTTGAGTTAGTTGT   2314
+
+Brapa_phy1      2225 CAACACTTGCTGTAGCAGAGATACAAGGAATAATGTTCTTGGTGTGTGCT   2274
+                     |||||||||.|||||||||||||..|.||||||||||||||||||.||||
+At_phyC         2315 CAACACTTGTTGTAGCAGAGATATGACGAATAATGTTCTTGGTGTATGCT   2364
+
+Brapa_phy1      2275 TCATTGGACAAGATGTTACAGGCCAGAAGACGCTTATTGAGAAGTATAGC   2324
+                     ||||||||||||||||||||||||||||.|||||||.|||.||.||||||
+At_phyC         2365 TCATTGGACAAGATGTTACAGGCCAGAAAACGCTTACTGAAAACTATAGC   2414
+
+Brapa_phy1      2325 CGCGTGCAAGGAGATTACGCCAGAATCATGTGGAGCCCTTCAACACTGAT   2374
+                     ||||||.||||||||||.|||.|||||||||||||||||||.|||||.||
+At_phyC         2415 CGCGTGAAAGGAGATTATGCCCGAATCATGTGGAGCCCTTCCACACTCAT   2464
+
+Brapa_phy1      2375 CCCACCAATTTTTATGACCACTGAGAATGGGTTATGCTCAGAGTGGAACG   2424
+                     .||||||||||||||.||||.|||.||||||.|||||||||||||||||.
+At_phyC         2465 TCCACCAATTTTTATAACCAATGAAAATGGGGTATGCTCAGAGTGGAACA   2514
+
+Brapa_phy1      2425 ACGCGATGCAGAAGCTCTCTGGTATAAGGAGAGAAGAAGCTGTGAATAAA   2474
+                     ||||.|||||||||||||||||.||||.|||||||||||.|||.||||||
+At_phyC         2515 ACGCAATGCAGAAGCTCTCTGGGATAAAGAGAGAAGAAGTTGTCAATAAA   2564
+
+Brapa_phy1      2475 ATGCTTCTTGGAGAGGTTTTCACCTCAAATGACTCAT-GCTGTCGCCTTC   2523
+                     ||.|||||.||.||||||||.|||.||.|||| |.|| |.||..|||||.
+At_phyC         2565 ATTCTTCTCGGGGAGGTTTTTACCACAGATGA-TTATGGTTGCTGCCTTA   2613
+
+Brapa_phy1      2524 AAGACCATGACACGTTAACTAAACTCAGAATAGCTTTAAATGCTGTGAGT   2573
+                     |||||||||||||.|||||.||.||.|||||||.|||.||||||||||.|
+At_phyC         2614 AAGACCATGACACTTTAACGAAGCTGAGAATAGGTTTCAATGCTGTGATT   2663
+
+Brapa_phy1      2574 TCTGGCCAGGATAACATAGAGAAGCTTTTATTTGGCTTCTACCATCGTGA   2623
+                     ||||||||..|.||||||||||||||||||||||||||.|||||||||||
+At_phyC         2664 TCTGGCCAAAAGAACATAGAGAAGCTTTTATTTGGCTTTTACCATCGTGA   2713
+
+Brapa_phy1      2624 TGGTAGATTCATCGAGGCCTTGCTTTCTGCAAACAAAAGAACTGACATGG   2673
+                     ||||||.|||||||||||.||||||||||||||||||||.|||||.||.|
+At_phyC         2714 TGGTAGCTTCATCGAGGCATTGCTTTCTGCAAACAAAAGGACTGATATTG   2763
+
+Brapa_phy1      2674 AAGGAAAAGTTACAGGGGTTTTATGCTTTCTGCAAGTACCTAGTCCAGAA   2723
+                     |.|||||.|||||.|||||||||||||||.||||||||||||||||||||
+At_phyC         2764 AGGGAAAGGTTACCGGGGTTTTATGCTTTTTGCAAGTACCTAGTCCAGAA   2813
+
+Brapa_phy1      2724 CTCCAATACGCTCTACAGGTTCAGCGAATATCAGAGCAGGCAATGGCCTG   2773
+                     ||||||||.||||||||||||||||.||||||||||||.|||||.|||||
+At_phyC         2814 CTCCAATATGCTCTACAGGTTCAGCAAATATCAGAGCATGCAATTGCCTG   2863
+
+Brapa_phy1      2774 CGCTGTCAACAAAATGGCATATCTCCGCCAACAAGTGGAGAATCCAGAAA   2823
+                     .||..||||||||.||||||||||||||||..|||||.||.|.||.||||
+At_phyC         2864 TGCCCTCAACAAATTGGCATATCTCCGCCATGAAGTGAAGGACCCCGAAA   2913
+
+Brapa_phy1      2824 AAGCAATATCCTTCCTTCAAGATTTTCTACATTCATCTGGATTAAATGAA   2873
+                     |.|||||||||||||||||||||||.||.||||||||||||||||.||||
+At_phyC         2914 AGGCAATATCCTTCCTTCAAGATTTGCTCCATTCATCTGGATTAAGTGAA   2963
+
+Brapa_phy1      2874 GAACAAAAGCAGCTCTTGAGTACAAGCGTGTCATGCAGGGAGCAGTTAGC   2923
+                     ||.|||||||.||||.||||.||||||||.|.||||||||||||||||||
+At_phyC         2964 GACCAAAAGCGGCTCCTGAGGACAAGCGTTTTATGCAGGGAGCAGTTAGC   3013
+
+Brapa_phy1      2924 CAAAGTCATAAGCGACTCAGACATAGAGGGAATTGAGGATGGGTATGTGC   2973
+                     |||||||||||||||||||||||||||||||||.||.||.||.||||||.
+At_phyC         3014 CAAAGTCATAAGCGACTCAGACATAGAGGGAATCGAAGAAGGCTATGTGG   3063
+
+Brapa_phy1      2974 AGCTGGGTTGCAGCGAATTCAGCCTTGAGGAATCCCTGGAATCAGTTGTA   3023
+                     |.||||.|||||||||||||.||||..||||||||||||||.||||||||
+At_phyC         3064 AACTGGATTGCAGCGAATTCGGCCTGCAGGAATCCCTGGAAGCAGTTGTA   3113
+
+Brapa_phy1      3024 AAACAAGTCATGGAGCTGAGCATAGAACGTAAAGTGCAGATCATCTGCGA   3073
+                     ||||||||.||||||||||||||||||||||||||.||.||||.||||||
+At_phyC         3114 AAACAAGTGATGGAGCTGAGCATAGAACGTAAAGTACAAATCAGCTGCGA   3163
+
+Brapa_phy1      3074 TTATCCTCAAGAAGTTTCGTTAATGAGACTGTATGGAGATTCCTTAAGGC   3123
+                     ||||||||||||||||||.|.|||||||.||||||||||...||||||||
+At_phyC         3164 TTATCCTCAAGAAGTTTCATCAATGAGATTGTATGGAGACAACTTAAGGC   3213
+
+Brapa_phy1      3124 TTCAGCAAATCCTTTCAGAGACACTCTCAAGCAGCATACGGTTCACTCCT   3173
+                     |||||||||||||||||||||||||.|.||||||||||||.|||||.|||
+At_phyC         3214 TTCAGCAAATCCTTTCAGAGACACTATTAAGCAGCATACGCTTCACGCCT   3263
+
+Brapa_phy1      3174 GCATTAAAGGGACTGTGCGTATCATTTAAGGTAATGTCACGGATAGAAGC   3223
+                     |||||.|..|||.||||.||.|||||.||||||||..|||||||||||||
+At_phyC         3264 GCATTGAGAGGATTGTGTGTCTCATTCAAGGTAATTGCACGGATAGAAGC   3313
+
+Brapa_phy1      3224 TATAGGGAAAAGAATGAAGAGAGTAGAGCTAGAGTTCAGGATAATACACC   3273
+                     ||||||.|||||||||||.|||||.||.||.|||||||||||||||||||
+At_phyC         3314 TATAGGAAAAAGAATGAAAAGAGTCGAACTTGAGTTCAGGATAATACACC   3363
+
+Brapa_phy1      3274 CGGCACCGGGACTGCCTGACGATCTAGTAAGAGAGATGTTTCAGCCTTTG   3323
+                     |||||||.|||||||||||.|||||.||||||||||||||||||||||||
+At_phyC         3364 CGGCACCAGGACTGCCTGAGGATCTGGTAAGAGAGATGTTTCAGCCTTTG   3413
+
+Brapa_phy1      3324 AGGAAAGATACATCAAGGGAAGGATTGGGACTACACATAACACAGAAGAT   3373
+                     ||.||.|..||||||||||||||.||||||.|||||||.||.||||||.|
+At_phyC         3414 AGAAAGGGAACATCAAGGGAAGGTTTGGGATTACACATTACCCAGAAGCT   3463
+
+Brapa_phy1      3374 GGTGAAACTCATGGAGGGAGGAACGTTGAGATACTTGAGAGAATCGGAAA   3423
+                     ||||||||||||||||.|||||||.|||||||||.|.|||||.||.||||
+At_phyC         3464 GGTGAAACTCATGGAGAGAGGAACATTGAGATACCTCAGAGAGTCTGAAA   3513
+
+Brapa_phy1      3424 TGTCAGCTTTTGTAATCCTCGCAGAATTTCCATTGCTTTGAA--TGCA-A   3470
+                     |||||||.|||||.||||||.||||||||||.|||.||||||  ||.| |
+At_phyC         3514 TGTCAGCCTTTGTGATCCTCACAGAATTTCCCTTGATTTGAAGCTGAAGA   3563
+
+Brapa_phy1      3471 C---TCTCCAAGGTCT-CAATAAATAATTGAATAAAT-------------   3503
+                     |   |||.||||.|.| ||.|   |.|||||||||.|             
+At_phyC         3564 CCTGTCTACAAGATTTACATT---TTATTGAATAAGTGTGGTGTTTTTGA   3610
+
+Brapa_phy1      3504 AATCGGACGTCACTGGATT---TCAC----ATAAATGTATG-TTAGTTAC   3545
+                     ||   |.|.|||.|...||   ||||    ||||||||||| ||||||||
+At_phyC         3611 AA---GTCTTCATTTTTTTTTCTCACATATATAAATGTATGTTTAGTTAC   3657
+
+Brapa_phy1      3546 TGTAACATAAATATAGGACGTTA-ATGTAATAATATACATACTAGATTTT   3594
+                     .|||||.|||          ||| ||      |||||.||| |||     
+At_phyC         3658 CGTAACTTAA----------TTACAT------ATATATATA-TAG-----   3685
+
+Brapa_phy1      3595 GACCCTTCAAGCGCGGGTTGTTGGATTATATT   3626
+                     ||      |||              |||.|||
+At_phyC         3686 GA------AAG--------------TTAAATT   3697
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyB
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4246
+# Identity:    2359/4246 (55.6%)
+# Similarity:  2359/4246 (55.6%)
+# Gaps:        1012/4246 (23.8%)
+# Score: 5499.5
+# 
+#
+#=======================================
+
+Brapa_phy1         1 GAATCAATCTA---CCCATTTCCTCTCCTC--------TCTGGGA---TT     36
+                     ||.|||..|||   ||   |||||...|||        ||||.||   ||
+At_phyB           24 GATTCACCCTAAATCC---TTCCTTGTCTCAAGGTAATTCTGAGAAATTT     70
+
+Brapa_phy1        37 CACTCACTAAAGTAACCAAA------------------------------     56
+                     |.|..|.|.||  ||.||||                              
+At_phyB           71 CTCAAATTCAA--AATCAAACGGCATGGTTTCCGGAGTCGGGGGTAGTGG    118
+
+Brapa_phy1        57 --------------------------GAAAAGATG--------------C     66
+                                               ||.||||.|              |
+At_phyB          119 CGGTGGCCGTGGCGGTGGCCGTGGCGGAGAAGAAGAACCGTCGTCAAGTC    168
+
+Brapa_phy1        67 AAACTCTCAAATA------------------------AATCGCAGGAAAC     92
+                     |.|||| |.||||                        |||||..||.|||
+At_phyB          169 ACACTC-CTAATAACCGAAGAGGAGGAGAACAAGCTCAATCGTCGGGAAC    217
+
+Brapa_phy1        93 GAAAACAAAGGTCTAAGAATGTCATCAGGTAGCAGCAATTCCGGAAGCTG    142
+                     ||||.|     |||.||      |.||.|.||||.||    |.|||    
+At_phyB          218 GAAATC-----TCTCAG------ACCAAGAAGCAACA----CTGAA----    248
+
+Brapa_phy1       143 TTCAACTCGATCCAGAAA-CAACTCTCGACTTTCTTCACAAGT-CCTCGC    190
+                      ||||  .||.|   ||| |||            ||||..||| |..||.
+At_phyB          249 -TCAA--TGAGC---AAAGCAA------------TTCAACAGTACACCGT    280
+
+Brapa_phy1       191 TGATGCAAAGCTCCACGGGAGTTTCGAGGAATCCGAGCG----------C    230
+                     .||.||||..|||||||....||||||..|||||| |||          .
+At_phyB          281 CGACGCAAGACTCCACGCCGTTTTCGAACAATCCG-GCGAATCAGGGAAA    329
+
+Brapa_phy1       231 TTATTCGACTACTCAGCTTCAATTCACGTGAACATGCCCACCTCCTCGTC    280
+                     |.|||||||||||||    ||| |||| |.||.|                
+At_phyB          330 TCATTCGACTACTCA----CAA-TCAC-TCAAAA----------------    357
+
+Brapa_phy1       281 CTACGACAT-CCCTTCCTCT-----------TCAGACGTCTCATCTTA-C    317
+                     |.|||||.| |..|||||||           .||||  ||.||.|||| |
+At_phyB          358 CGACGACGTACGGTTCCTCTGTACCTGAGCAACAGA--TCACAGCTTATC    405
+
+Brapa_phy1       318 TTACACAAGATTCAGAGAGGGATG--TTGATTCAGCCCTTTGGTTGCTTA    365
+                     |..|.|.| ||.|||.||||  ||  |..||||||||.||.||.||..|.
+At_phyB          406 TCTCTCGA-ATCCAGCGAGG--TGGTTACATTCAGCCTTTCGGATGTATG    452
+
+Brapa_phy1       366 ATCGTCGTTGACGACAAGACCCTCAAAGTAATTGCC---------TTTAG    406
+                     ||||.|||.||.||    |.||       |.||.||         .|||.
+At_phyB          453 ATCGCCGTCGATGA----ATCC-------AGTTTCCGGATCATCGGTTAC    491
+
+Brapa_phy1       407 CGAGAACACGCAAGAG--ATGTT-GGGTTTGTCTCCACACACTGTGCCTA    453
+                     .|.|||.||||.||||  ||||| |||.||.| .||.||..||||.||||
+At_phyB          492 AGTGAAAACGCCAGAGAAATGTTAGGGATTAT-GCCTCAATCTGTTCCTA    540
+
+Brapa_phy1       454 GCATGGAGCAACGTGAGGCTCTGAG-TATCGGAACTGATGTGCAG-TCTC    501
+                     ...|.|||.|||.||||..||| || |||.|||||||||||| || |||.
+At_phyB          541 CTCTTGAGAAACCTGAGATTCT-AGCTATGGGAACTGATGTG-AGATCTT    588
+
+Brapa_phy1       502 TGTTTCAGT--CTCAAGGCTC--TTCTGCGTTGCAGAAAGC-TGCTGACT    546
+                     || ||||.|  .||.| ||||  ||||.| |.|     ||| ||||..|.
+At_phyB          589 TG-TTCACTTCTTCGA-GCTCGATTCTAC-TCG-----AGCGTGCTTTCG    630
+
+Brapa_phy1       547 TTG---GTGAGATTA----GTATTCTGAATCCTATCACGCTTCACTGCAG    589
+                     |||   |.|||||||    ||    |.|||||..|...|.|.||.|.||.
+At_phyB          631 TTGCTCGAGAGATTACCTTGT----TAAATCCGGTTTGGATCCATTCCAA    676
+
+Brapa_phy1       590 GACTTCGGGTAAGCCTTTCTATGCCATTCTCCATCGGATTGAACAAGGTC    639
+                     ||.|.|.|||||.||.||.||.||||||||.|||.|||||||....|||.
+At_phyB          677 GAATACTGGTAAACCGTTTTACGCCATTCTTCATAGGATTGATGTTGGTG    726
+
+Brapa_phy1       640 TCGTTATAGATTTGGAGCCAGTGGGTCTTGA--TG-AGGTCCCAGTGACT    686
+                     |.|||||.|||||.|||||||     ||.||  || ||.||       ||
+At_phyB          727 TTGTTATTGATTTAGAGCCAG-----CTAGAACTGAAGATC-------CT    764
+
+Brapa_phy1       687 GC---------TGCTGGTGC-GTTGAAGTCATACAAGCTCGCTGCTAAAT    726
+                     ||         ||||||||| |||.|| ||..|.||.|||||.|.|....
+At_phyB          765 GCGCTTTCTATTGCTGGTGCTGTTCAA-TCGCAGAAACTCGCGGTTCGTG    813
+
+Brapa_phy1       727 CGATTTCGAGGTTGCAGGCTTTGCCTAGTGGGAATATGTCGTTGCTCTGT    776
+                     |||||||...|||.||||||.|.|||.||||..||||...|.|..|.|||
+At_phyB          814 CGATTTCTCAGTTACAGGCTCTTCCTGGTGGAGATATTAAGCTTTTGTGT    863
+
+Brapa_phy1       777 GATGCTTTAGTTAAGGAA---GTTAGTGAGTTAACCGGGTATGATAGGGT    823
+                     ||..||.|.||   ||||   ||.||.||.||.||.||.||||||.|.||
+At_phyB          864 GACACTGTCGT---GGAAAGTGTGAGGGACTTGACTGGTTATGATCGTGT    910
+
+Brapa_phy1       824 GATGGTTTATAAGTTTCATGGAGATGGGCATGGGGAAGTGATTGCTGAGT    873
+                     .|||||||||||||||||||.|||||.||||||.|||||..|.|||||| 
+At_phyB          911 TATGGTTTATAAGTTTCATGAAGATGAGCATGGAGAAGTTGTAGCTGAG-    959
+
+Brapa_phy1       874 GCTGTAAGGCAGAC---TTGGAACCTTATCTTGGGTTGCATTACTCGGCT    920
+                       .||||...||||   ||.||.||||||.||||..|||||||..|.|||
+At_phyB          960 --AGTAAACGAGACGATTTAGAGCCTTATATTGGACTGCATTATCCTGCT   1007
+
+Brapa_phy1       921 ACTGATATACCACAAGCCTCTAGATTTCTCTTTATGAGGAACAAGGTTAG    970
+                     ||||||||.||.|||||.||.||.||..|.||||.|..||||...||..|
+At_phyB         1008 ACTGATATTCCTCAAGCGTCAAGGTTCTTGTTTAAGCAGAACCGTGTCCG   1057
+
+Brapa_phy1       971 GATGATTTGT-GATTG------TTCGGCTGTTCCAGTTAAAGTAGTCCAG   1013
+                     .|||| |.|| |||||      ..|..||||||   ||   ||.||||||
+At_phyB         1058 AATGA-TAGTAGATTGCAATGCCACACCTGTTC---TT---GTGGTCCAG   1100
+
+Brapa_phy1      1014 GACAAGAGTCTCTCACAGCCGAT-TACTCTCGCTGGATCTACTCTGAGAG   1062
+                     |||.|.||.||..|.|||.|.|| |.|| |.|.|||.||||||||.||.|
+At_phyB         1101 GACGATAGGCTAACTCAGTCTATGTGCT-TGGTTGGTTCTACTCTTAGGG   1149
+
+Brapa_phy1      1063 CTCCTCATGGCTGTCACGCGCAGTATATGAGTAATATGGGCTCAGTGGCA   1112
+                     ||||||||||.||||||.|.|||||||||..|||.|||||.||..|.||.
+At_phyB         1150 CTCCTCATGGTTGTCACTCTCAGTATATGGCTAACATGGGATCTATTGCG   1199
+
+Brapa_phy1      1113 TCTCTTGTTATGTCCGTAACGATCAATGGTAGTGAGAG-TGATGAGATGA   1161
+                     |||.|.|..|||.|.||.|..||||||||.|.||| || |||||.||..|
+At_phyB         1200 TCTTTAGCAATGGCGGTTATAATCAATGGAAATGA-AGATGATGGGAGCA   1248
+
+Brapa_phy1      1162 ACAGAGATTTGCAG--ACGGGTAGAACCT---------TATGGGGCTTAG   1200
+                     |        ||.||  |..||.||||.||         |.|||||.||.|
+At_phyB         1249 A--------TGTAGCTAGTGGAAGAAGCTCGATGAGGCTTTGGGGTTTGG   1290
+
+Brapa_phy1      1201 TGGTTTGTCATCACGCAAGTCCTAGGGTCGTCCCGTTTCCTCTGAGATAT   1250
+                     |.|||||.||||||.|...|.||.|...|.|.||||||||.||.||.|||
+At_phyB         1291 TTGTTTGCCATCACACTTCTTCTCGCTGCATACCGTTTCCGCTAAGGTAT   1340
+
+Brapa_phy1      1251 GCCTGTGAATTCTTGACTCAGGTGTTTGGCGTGCACATCAACAAGGAAGC   1300
+                     ||.|||||.||.||||..||||..||.||..|.||..|.||||.||||..
+At_phyB         1341 GCTTGTGAGTTTTTGATGCAGGCTTTCGGTTTACAGTTAAACATGGAATT   1390
+
+Brapa_phy1      1301 GGAATCAGCTCTTCTGTTGAAAGAGAAGCATATTCTGCAAACTCAGAGTG   1350
+                     |.|.|.||||.|.|...||..||||||.|...||.||..|||.||||...
+At_phyB         1391 GCAGTTAGCTTTGCAAATGTCAGAGAAACGCGTTTTGAGAACGCAGACAC   1440
+
+Brapa_phy1      1351 TGCTATGTGACATGCTTTTTCGCAATGCACCTATAGGTATAGTCACTCAG   1400
+                     ||.|||||||.||||||.|.||..|..|.|||...||.||.||.||.|||
+At_phyB         1441 TGTTATGTGATATGCTTCTGCGTGACTCGCCTGCTGGAATTGTTACACAG   1490
+
+Brapa_phy1      1401 TCTCCAAATATAATGGATCTT-GTTAAATGTGATGGAGCAGC---TCTTT   1446
+                     ..|||.|.|||.||||| ||| ||.||||||||.||.|||||   |||||
+At_phyB         1491 AGTCCCAGTATCATGGA-CTTAGTGAAATGTGACGGTGCAGCATTTCTTT   1539
+
+Brapa_phy1      1447 ATTACAG--AG-ATAAGCTCTGGGCTTTAGGGGTTGCTCCTACAGAGACA   1493
+                     |..||.|  || ||.|.|      |.||.||.||||||||||..||....
+At_phyB         1540 ACCACGGGAAGTATTACC------CGTTGGGTGTTGCTCCTAGTGAAGTT   1583
+
+Brapa_phy1      1494 CAAATTAGAGATATAATCGATTGGGTTCT--CAAAAGTCAAGGAGGAGGA   1541
+                     ||.||.|.||||.|..|.||.|||.|.||  |.||  || |.|.|||...
+At_phyB         1584 CAGATAAAAGATGTTGTGGAGTGGTTGCTTGCGAA--TC-ATGCGGATTC   1630
+
+Brapa_phy1      1542 AACAGTGGCGTTACCACTGAAAGTCTA----ATGGAGTCTGGCTATCCGG   1587
+                     |||  .||..|.|.||||||.|||.||    |||    |.||.|||||.|
+At_phyB         1631 AAC--CGGATTAAGCACTGATAGTTTAGGCGATG----CGGGGTATCCCG   1674
+
+Brapa_phy1      1588 ATGC--TTCCGTCCTCGGGGAGTCAATCTGTGGAATGGCTGCCGTACATA   1635
+                     .|||  .|.|||  |.|||||..|..|.||.||.|||||.|  .|.||||
+At_phyB         1675 GTGCAGCTGCGT--TAGGGGATGCTGTGTGCGGTATGGCAG--TTGCATA   1720
+
+Brapa_phy1      1636 TAACCCAAAAGG----TTTTCCTTTTCTGGTTCCGGTCTGGCACTGCAAA   1681
+                     ||.|.|||||.|    |||  |||||.|||||.||.|||..||||||.||
+At_phyB         1721 TATCACAAAAAGAGACTTT--CTTTTTTGGTTTCGATCTCACACTGCGAA   1768
+
+Brapa_phy1      1682 ACAGATCAAGTGGGGTGGTGC-AAGACATGATCCTGATGACAGA---GAT   1727
+                     |.|.|||||.|||||.||.|| ||| |||.||||.||.||.|.|   |||
+At_phyB         1769 AGAAATCAAATGGGGAGGCGCTAAG-CATCATCCGGAGGATAAAGATGAT   1817
+
+Brapa_phy1      1728 GGTAAAAGGATGCATCCTAGATCCTCGTTCAAGGCTTTTATGGAAATAGT   1777
+                     ||..||.|.|||||||||.|.||.||.||..||||||||.|.|||.|.||
+At_phyB         1818 GGGCAACGAATGCATCCTCGTTCGTCCTTTCAGGCTTTTCTTGAAGTTGT   1867
+
+Brapa_phy1      1778 ------CCGGTGGAAAAGTATGCCCTGGGA---TGACATGGAAATGGATG   1818
+                           ||||      |||..|||.|||||   ||   .|||||||||||
+At_phyB         1868 TAAGAGCCGG------AGTCAGCCATGGGAAACTG---CGGAAATGGATG   1908
+
+Brapa_phy1      1819 CAATCAATTCTCTGCAGCTGATAATAAAAGGCTCACTGCAAGAGGAGCAT   1868
+                     |.||..|.||.||.|||||.||..|.|.||.|||..|..||||     ||
+At_phyB         1909 CGATTCACTCGCTCCAGCTTATTCTGAGAGACTCTTTTAAAGA-----AT   1953
+
+Brapa_phy1      1869 C-----CAG------ACACT---GTTGTGAAT------GTGCCGCCGTTT   1898
+                     |     |.|      ||.||   ||||||.||      ||.|.|||.|.|
+At_phyB         1954 CTGAGGCGGCTATGAACTCTAAAGTTGTGGATGGTGTGGTTCAGCCATGT   2003
+
+Brapa_phy1      1899 GTGGATAAT----AGAGTCCAGAAGGTGGATGAAATGTGTGTTA------   1938
+                     ..|||| ||    .|.|..|||..|.|.|||||       ||||      
+At_phyB         2004 AGGGAT-ATGGCGGGGGAACAGGGGATTGATGA-------GTTAGGTGCA   2045
+
+Brapa_phy1      1939 -TTGTGAACGAAATGGTGCGGTTGATTGACACAGCTGCTGTTCCGATCTT   1987
+                      |||..|..||.|||||..||.|.|||||.||.||..|||||||.||.||
+At_phyB         2046 GTTGCAAGAGAGATGGTTAGGCTCATTGAGACTGCAACTGTTCCTATATT   2095
+
+Brapa_phy1      1988 TGCGGCTGATGCCTCTGG-TGTTATAAACGGTTGGAATTCAAAAGCGGCT   2036
+                     .||.|..||||||...|| || .||.||.||.|||||..|.||....||.
+At_phyB         2096 CGCTGTGGATGCCGGAGGCTG-CATCAATGGATGGAACGCTAAGATTGCA   2144
+
+Brapa_phy1      2037 GAGGTGACTGGGTTGGCTGTTGAACAAGCGATAGGCAAACCT---GTATC   2083
+                     |||.||||.||..|..|.||||||.||||.||.||.||..||   ||.||
+At_phyB         2145 GAGTTGACAGGTCTCTCAGTTGAAGAAGCTATGGGGAAGTCTCTGGTTTC   2194
+
+Brapa_phy1      2084 AGATATCGTTGAAGAT-----GATTCTGCAATAACCGTTAAGAA-CATGT   2127
+                     .||     ||.||.||     ||...||.|..|||.||.||.|| |.|.|
+At_phyB         2195 TGA-----TTTAATATACAAAGAGAATGAAGCAACTGTCAATAAGCTTCT   2239
+
+Brapa_phy1      2128 TAGCATTGGCTCTC----------------CAAGGTAGCGAAGAACGTGG   2161
+                     |         ||||                |.|||.|   |||||.||| 
+At_phyB         2240 T---------TCTCGTGCTTTGAGAGGGGACGAGGAA---AAGAATGTG-   2276
+
+Brapa_phy1      2162 CGCCGAGATCAGGATCAGAGCATTTGGTC-----CTAAAAGGAAAAGCAG   2206
+                         |||.|.|.|.|.|.|.|.||..|.|     |||.||||.|||||||
+At_phyB         2277 ----GAGGTTAAGCTGAAAACTTTCAGCCCCGAACTACAAGGGAAAGCAG   2322
+
+Brapa_phy1      2207 TCCTATTGAATTAGTCGTCAACACTTGCTGTAGCAGAGA-TACAAGGAAT   2255
+                     |  |.|||   |.||.||.||..||||.|..||||..|| ||| ..|||.
+At_phyB         2323 T--TTTTG---TGGTTGTGAATGCTTGTTCCAGCAAGGACTAC-TTGAAC   2366
+
+Brapa_phy1      2256 AATGTTCTTGGTGTGTGCTTCATTGGACAAGATGTTACAGGCCAGAAGA-   2304
+                     ||..||.|.||.||.||.||..||||||||||.|||||..|.|||||.| 
+At_phyB         2367 AACATTGTCGGCGTTTGTTTTGTTGGACAAGACGTTACTAGTCAGAAAAT   2416
+
+Brapa_phy1      2305 CGCTTATTGAGAAGTATAGCCGCGTGCAAGGAGATTAC---GCCA--GAA   2349
+                     || |.||.||.||||..|.|..|.|.||||||||||||   ||.|  |.|
+At_phyB         2417 CG-TAATGGATAAGTTCATCAACATACAAGGAGATTACAAGGCTATTGTA   2465
+
+Brapa_phy1      2350 TCATGTGGAGCCCTTCAA---CACTGATCCCACCAATTTTT----ATGAC   2392
+                      |||    ||||   |||   |.||.|||||.|||||||||    .||||
+At_phyB         2466 -CAT----AGCC---CAAACCCTCTAATCCCGCCAATTTTTGCTGCTGAC   2507
+
+Brapa_phy1      2393 CACTGAGAATGGGTTATGCTCAGAGTGGAACGACGCGATGCAGAAGCTCT   2442
+                         |||||...||..|||...||.||||||...||||||.|.|||||..
+At_phyB         2508 ----GAGAACACGTGCTGCCTGGAATGGAACATGGCGATGGAAAAGCTTA   2553
+
+Brapa_phy1      2443 C----TGGTATAAGGAGAGAAGAAGCTGTGAAT---AAAATGCTTCTTGG   2485
+                     |    ||||.| .|.||.|||      ||||.|   ||||||.||.|.||
+At_phyB         2554 CGGGTTGGTCT-CGCAGTGAA------GTGATTGGGAAAATGATTGTCGG   2596
+
+Brapa_phy1      2486 AGAGGTTTTCACCTCAAAT--GACTCATGCTGTCGCCTTCAA----GACC   2529
+                     .||.||.||         |  ||     |||||.||.|.|.|    |.||
+At_phyB         2597 GGAAGTGTT---------TGGGA-----GCTGTTGCATGCTAAAGGGTCC   2632
+
+Brapa_phy1      2530 ATGACACGTTAACTAAACTCA-----GAATAGCTTTAAATGCTGTGAGTT   2574
+                      |||..|.|||||.||..|||     |.||.||.|  |||||   ||.|.
+At_phyB         2633 -TGATGCTTTAACCAAGTTCATGATTGTATTGCAT--AATGC---GATTG   2676
+
+Brapa_phy1      2575 CTGGCCAGGATAACATAGAGAAG----CTT-----TTATTTGGCTTCTAC   2615
+                     .||||||.|||   |..||.|||    |||     ||.||||        
+At_phyB         2677 GTGGCCAAGAT---ACGGATAAGTTCCCTTTCCCATTCTTTG--------   2715
+
+Brapa_phy1      2616 CATCGTGAT-GGTAGATTCATCGAGGCCTTGCTTTCTGCAAACAAAAGAA   2664
+                      |.||..|| ||.||.||..|| ||||..|..|..||||||||||..|..
+At_phyB         2716 -ACCGCAATGGGAAGTTTGTTC-AGGCTCTATTGACTGCAAACAAGCGGG   2763
+
+Brapa_phy1      2665 CTGACATGGAAGGAAAAGTTACAGGGGTTTTATGCTTTC-TGCAAGTACC   2713
+                     .|..|.|.||.|||||.||||..||||.|||.|| |||| |||||.|.||
+At_phyB         2764 TTAGCCTCGAGGGAAAGGTTATTGGGGCTTTCTG-TTTCTTGCAAATCCC   2812
+
+Brapa_phy1      2714 TAGTCCAGAACTCCAATACGCTCTA-CAGGTTCAGCGAATATCAGA-GCA   2761
+                     .||.||.||.||.||..|.|||.|| || ||.||.||       || |||
+At_phyB         2813 GAGCCCTGAGCTGCAGCAAGCTTTAGCA-GTCCAACG-------GAGGCA   2854
+
+Brapa_phy1      2762 GGCAATGGCCTGCGCTGTCA-----ACAAAA----TGGCATATCTCCGCC   2802
+                     ||..|..|..||   |.|||     .|||||    ||||.|||.|..|.|
+At_phyB         2855 GGACACAGAGTG---TTTCACGAAGGCAAAAGAGTTGGCTTATATTTGTC   2901
+
+Brapa_phy1      2803 AACAAGTGGAGAATCCAGAAAAAGCAATATCCTTCCTTCAAG----AT--   2846
+                     |      ||       .||.||||.|       |||||..||    ||  
+At_phyB         2902 A------GG-------TGATAAAGAA-------TCCTTTGAGCGGTATGC   2931
+
+Brapa_phy1      2847 -TTTC-TACATTCAT--CTGGA----------TTAAATGAAGAACAAAAG   2882
+                      |||| .|.|.||||  .||||          ||.||.||.||.||.|||
+At_phyB         2932 GTTTCGCAAACTCATTGTTGGAGGCCACAGACTTGAACGAGGACCAGAAG   2981
+
+Brapa_phy1      2883 CAGCT-CTTGAGTACAAGCGTGTCATGCAGGGAGCAGTTAGCCAAAG--T   2929
+                     |||.| ||||| .|||||.||.||.|||..|.|.|||  |.|..|||  |
+At_phyB         2982 CAGTTACTTGA-AACAAGTGTTTCTTGCGAGAAACAG--ATCTCAAGGAT   3028
+
+Brapa_phy1      2930 CATAAGCGACTCAGACATAGAGGGAATTGAGGATGGGT-ATGTGCAGCTG   2978
+                     |.|..|.|||...||..|.||..|.|||||.||.||.| ||.||      
+At_phyB         3029 CGTCGGGGACATGGATCTTGAAAGCATTGAAGACGGTTCATTTG------   3072
+
+Brapa_phy1      2979 GGTTGC-----AGCGAATTCAGCCTTGAGGAATCCCTGGAA---TCAGTT   3020
+                        |||     ||.|||  .||..||      |||.|||||   |||   
+At_phyB         3073 ---TGCTAAAGAGGGAA--GAGTTTT------TCCTTGGAAGTGTCA---   3108
+
+Brapa_phy1      3021 GTAAAAC--------AAGTCATGGAGC--TGAGCATAGAACGTAAAGTG-   3059
+                       .||||        ||||||   |||  ||..|.||     |.|||.| 
+At_phyB         3109 --TAAACGCGATTGTAAGTCA---AGCGATGTTCTTA-----TTAAGGGA   3148
+
+Brapa_phy1      3060 CAGA-----TCATCTG---CG----ATT---------ATC--CTCA--AG   3084
+                     ||||     |||.|||   ||    |||         |||  .|||  ||
+At_phyB         3149 CAGAGGTCTTCAGCTGATCCGTGACATTCCCGAAGAGATCAAATCAATAG   3198
+
+Brapa_phy1      3085 AAGTTTCGTTAATGAGACTGTATGGAGATTCCTTAAGGCTTCAGCAAATC   3134
+                     |.||||  ||  .|||||      .|||     |||||.||||.||..||
+At_phyB         3199 AGGTTT--TT--GGAGAC------CAGA-----TAAGGATTCAACAGCTC   3233
+
+Brapa_phy1      3135 CTTTCAGAGACACTCTCAAGC--AGCATA---CGG--TTCACTCCTGCAT   3177
+                     ||..|.|||...||     ||  ||.|||   |||  |.|||     |||
+At_phyB         3234 CTGGCTGAGTTTCT-----GCTGAGTATAATCCGGTATGCAC-----CAT   3273
+
+Brapa_phy1      3178 -TAAAGGGACTGTGCGT----AT-CATTTAAGGTAA-TGTCACGGATAGA   3220
+                      |.|||    .|||.||    || ||||||||..|| |.|||       |
+At_phyB         3274 CTCAAG----AGTGGGTGGAGATCCATTTAAGCCAACTTTCA-------A   3312
+
+Brapa_phy1      3221 AGCTATAGG---------------------GAAAAGAATGAAGAGAGTAG   3249
+                     |||.|..||                     |.|.|||||..|||    |.
+At_phyB         3313 AGCAAATGGCTGATGGATTCGCCGCCATCCGCACAGAATTCAGA----AT   3358
+
+Brapa_phy1      3250 AGCTAGAGTTCAGGATAATACACCCGGCACCGGGACTGCCTGACGATCTA   3299
+                     .||  |.||.||||..||              ||.||||||...||.|||
+At_phyB         3359 GGC--GTGTCCAGGTGAA--------------GGTCTGCCTCCAGAGCTA   3392
+
+Brapa_phy1      3300 GTAAGAGAGATGTT-----TCAGCCTTTGAGGAAAGATACATCAAG---G   3341
+                     ||..||||.|||||     .||||          ||.|..| ||||   .
+At_phyB         3393 GTCCGAGACATGTTCCATAGCAGC----------AGGTGGA-CAAGCCCT   3431
+
+Brapa_phy1      3342 GAAGGATTGGGACTACACATAACACAGAAGATGGTGAAACTCATGGAGGG   3391
+                     |||||.||.||.|||..|.||...|..|||||..|.||.||.||      
+At_phyB         3432 GAAGGTTTAGGTCTAAGCGTATGTCGAAAGATTTTAAAGCTAAT------   3475
+
+Brapa_phy1      3392 AGGAACGTTGAG-----ATACTTGAGAGAATCGGAAATGTCAGCTTT---   3433
+                       |||||.||||     ||||.|..|||||||.|||..|||...|||   
+At_phyB         3476 --GAACGGTGAGGTTCAATACATCCGAGAATCAGAACGGTCCTATTTCCT   3523
+
+Brapa_phy1      3434 ------------------TGTAATCCTCGCA---GA--ATT-TCCATTGC   3459
+                                       ||||  |||||.|   ||  ||| ||.|.|||
+At_phyB         3524 CATCATTCTGGAACTCCCTGTA--CCTCGAAAGCGACCATTGTCAACTGC   3571
+
+Brapa_phy1      3460 TTTGAATGCAACTCTCCAAGGTCTCAATAAATAAT-----TGA----ATA   3500
+                     |   |.||.||.|      |||     .|.||.||     |||    || 
+At_phyB         3572 T---AGTGGAAGT------GGT-----GACATGATGCTGATGATGCCAT-   3606
+
+Brapa_phy1      3501 AATAATCGGACGTCACT-------GGATTTCACATAAATGTA----TGTT   3539
+                     |.||.||..||.|||.|       .||.||...||.|.||||    ||||
+At_phyB         3607 ATTAGTCACACTTCAGTTGGTATGAGAGTTTGTATCATTGTATGAGTGTT   3656
+
+Brapa_phy1      3540 AGTTACTGTAAC--------ATAAATATAGGACGTTAAT-----------   3570
+                     .||...|.||||        |..|..||||.|.|||..|           
+At_phyB         3657 TGTGTGTCTAACGACGTCGGAGGAGGATAGAAAGTTTTTTTTTTGTTTCC   3706
+
+Brapa_phy1      3571 -GTAATAATA-TACATA----CTAGAT--TTTGACCCTTCA----AGCGC   3608
+                      ||.|.|.|| ||.|.|    ..||||  ||||  |.||||    |||.|
+At_phyB         3707 GGTGAGATTAGTAGAGAAGAGGGAGATTATTTG--CGTTCAGCTCAGCTC   3754
+
+Brapa_phy1      3609 G---------------------GGTTGTTG-GATTATATTATAATACT--   3634
+                     |                     .|||||.| ||    |||..||.|||  
+At_phyB         3755 GCCGGAAAAAAAACGTAACAGTAGTTGTAGAGA----ATTTCAAGACTTT   3800
+
+Brapa_phy1      3635 --------AGGTGT--ATTG-----CCCGCGATGCGGGCTTAAACA   3665
+                             ..||||  ||||     .|||.||        .|||||
+At_phyB         3801 TGTTTGTGCTGTGTAAATTGACAACTCCGAGA--------GAAACA   3838
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyE
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4428
+# Identity:    2319/4428 (52.4%)
+# Similarity:  2319/4428 (52.4%)
+# Gaps:        1324/4428 (29.9%)
+# Score: 5218.5
+# 
+#
+#=======================================
+
+Brapa_phy1         1 GAATCA-ATCTACCCATTTCCTC---------------------------     22
+                     |||..| || ||.|||||||.||                           
+At_phyE           39 GAAAGACAT-TAGCCATTTCTTCAATAGATTCAGAGTAACAAAAAAATAC     87
+
+Brapa_phy1        23 -TCCTCTCTGGGA----TTCACTCAC-----TAAAGTAACCAAAGAAAAG     62
+                      |..||..|||.|    ||.|.||||     |||||.||...||||||||
+At_phyE           88 TTATTCCATGGAACTTTTTTATTCACAAAAATAAAGCAATTTAAGAAAAG    137
+
+Brapa_phy1        62 --------------------------------------------------     62
+                                                                       
+At_phyE          138 GGAAAAAAAATGAAAGTGAATCGGTGGTGGTCACCGAACAAGCTGTACGT    187
+
+Brapa_phy1        63 ----------ATGCAAAC----TCTCAAATAA-----ATCGCAGGAAACG     93
+                               ||||||||    |..||||.||     ||.|.|||||.| 
+At_phyE          188 GTGGGAGAGAATGCAAACAGAGTAGCAAAAAAAAAGCATTGAAGGAAGC-    236
+
+Brapa_phy1        94 AAAAC---------AAAGGTCTAAGAATGTCATCAGGTAGCAGCAATTCC    134
+                     |||||         ||||    |||||  ||.|.|||||..|.|.|.|||
+At_phyE          237 AAAACAAAACATGAAAAG----AAGAA--TCTTGAGGTAAAAACGAATCC    280
+
+Brapa_phy1       135 -------------GGAAGCTGTT------------------------CAA    147
+                                  ||||.||.||                        |||
+At_phyE          281 CAAATATCAAAAAGGAAACTTTTTTTACTTCTTTCTTTCTCTTGCTGCAA    330
+
+Brapa_phy1       148 CTCGATCCAGAAACAACTCTCGACTTTCTTCACAAGTCCTC-GCTGATGC    196
+                     .| |||.|||||.||.|| ||    ||||||    .||.|| .|||.|..
+At_phyE          331 AT-GATACAGAATCAGCT-TC----TTCTTC----TTCTTCTTCTGGTCG    370
+
+Brapa_phy1       197 AAA---GCTCCACGGGAGTTTC---------GAGGAATCCGAGCGCTTAT    234
+                     |||   .||||||   |.||||         ..||.||.||||.|    |
+At_phyE          371 AAACTCACTCCAC---ACTTTCCCCTAAGCTATGGGATTCGAGAG----T    413
+
+Brapa_phy1       235 TCGACTACTCAGCTTCAATTCACGTG---------------------AAC    263
+                     ||.|  .|||||||.|||...||.||                     |||
+At_phyE          414 TCAA--GCTCAGCTGCAAGCAACATGAAACCTCAACCTCAAAAATCCAAC    461
+
+Brapa_phy1       264 A-TGCCCA-------------CCTCCTC----------------------    277
+                     | |||.||             .||.|||                      
+At_phyE          462 ACTGCTCAATACTCTGTTGATGCTGCTCTCTTTGCTGATTTCGCTCAATC    511
+
+Brapa_phy1       278 ---------------GTC------CTAC----------------GACATC    290
+                                    |||      ||||                .||.||
+At_phyE          512 CATTTACACCGGCAAGTCTTTTAACTACTCCAAATCTGTTATTTCACCTC    561
+
+Brapa_phy1       291 CC-------TTCCT-CTTCAGACGTCTCATCTTACTTACACAAGATTCAG    332
+                     ||       ||||| .|..|.||.||.||.|||||||....||.||.||.
+At_phyE          562 CCAATCACGTTCCTGATGAACACATCACAGCTTACTTGTCTAACATCCAA    611
+
+Brapa_phy1       333 AGAGG-GATGTTGATTCAGCCCTTTGGTTGCTTAATCGTCGTTGACGACA    381
+                     ||||| |.|.|.| ||||||||||||||||.||.||.|..||.|     |
+At_phyE          612 AGAGGCGGTCTAG-TTCAGCCCTTTGGTTGTTTGATTGCTGTCG-----A    655
+
+Brapa_phy1       382 AGACCCTCAAAG--------TAATTGCCTTTAGCGAGAACACGCAAGAGA    423
+                     |||.|||   ||        ||.|||...||||.||.|||.|....||..
+At_phyE          656 AGAACCT---AGTTTTAGGATACTTGGTCTTAGTGACAACTCTTCTGACT    702
+
+Brapa_phy1       424 TGTTGGGTTTGT-------------CTCCACACACTGTGCCTAGCATGGA    460
+                     |..|.|||||||             |.||.|.||.|.||           
+At_phyE          703 TTCTTGGTTTGTTGTCTCTTCCTTCCACCTCCCATTCTG-----------    741
+
+Brapa_phy1       461 GCAACGTGAGGCTCTGA-----------GT---ATCGGAACTGATGTGCA    496
+                          |||||  |.|||           ||   ||.||||..||  ||||
+At_phyE          742 -----GTGAG--TTTGATAAAGTCAAGGGTTTGATTGGAATCGA--TGCA    782
+
+Brapa_phy1       497 --GTCTCTGTTTCAGTC--TCAAGGCTCT---TCTGCGTTGCAGAAAGCT    539
+                       |.|.|| |||.|.||  ||    ||||   .||.|.|||...||||||
+At_phyE          783 AGGACGCT-TTTTACTCCTTC----CTCTGGAGCTTCTTTGTCTAAAGCT    827
+
+Brapa_phy1       540 GCTGACTTTGGTGAGATTAGTATTC-----TGAATCCTATCACGCTTCAC    584
+                     |||..||||..||||||     |||     ||||||||.|...|.|.||.
+At_phyE          828 GCTTCCTTTACTGAGAT-----TTCCTTGTTGAATCCTGTTTTGGTCCAT    872
+
+Brapa_phy1       585 TGCAGGACTTCGGGTAAGCCTTTCTATGCCATTCTCCATCGGATTGAACA    634
+                     |..|||||..|....||||||||.|||||.|||||.||..|||||||...
+At_phyE          873 TCTAGGACGACCCAGAAGCCTTTTTATGCTATTCTTCACAGGATTGATGC    922
+
+Brapa_phy1       635 AGGTCTCGTTATAGATTTGGAGCCAGTGGGTCTTGATGAGG---TCC--C    679
+                     |||..|.||.||.|||||||||||.|     ||..||.|||   |||  |
+At_phyE          923 AGGGATTGTCATGGATTTGGAGCCTG-----CTAAATCAGGTGATCCGGC    967
+
+Brapa_phy1       680 AGTGACTGCTGCTGGTGC-GTTGAAGTCATACAAGCTCGCTGCTAAATCG    728
+                     ..||||...|||.||.|| ||| .||||..|.|||||.||.|.||...|.
+At_phyE          968 TTTGACCCTTGCAGGCGCAGTT-CAGTCTCAGAAGCTAGCCGTTAGGGCC   1016
+
+Brapa_phy1       729 ATTTCGAGGTTGCAGGCTTTGCCTAGTGGGAATAT--GT-CGTTGCTCTG    775
+                     |||||.|||.|||||.|..|.||..|.||..||||  || |.|||   ||
+At_phyE         1017 ATTTCTAGGCTGCAGTCACTTCCCGGAGGAGATATTGGTGCCTTG---TG   1063
+
+Brapa_phy1       776 TGATGCTTTAGTTAAGGAAGTT-AGTGAGTTAACCGGGTATGATAGGGTG    824
+                     ||||.||.|.||..|.||.||| ||.||.|| |||||.|||||..|.||.
+At_phyE         1064 TGATACTGTTGTGGAAGATGTTCAGAGACTT-ACCGGTTATGACCGTGTT   1112
+
+Brapa_phy1       825 ATGGTTTATAAGTTTCATGGAGATGGGCATGGGGAAGTGATTGCTGAG-T    873
+                     |||||.|||.|||||||||.|||||..|||||.|||||..||.||||| |
+At_phyE         1113 ATGGTCTATCAGTTTCATGAAGATGATCATGGTGAAGTTGTTTCTGAGAT   1162
+
+Brapa_phy1       874 GCTGTAAGG-CAGACTTGGAACCTTATCTTGGG-TTGCATTACTCGGCTA    921
+                       |..|||| |.||.|||||.|||||| ||||| ||.|||||..||||.|
+At_phyE         1163 --TAGAAGGTCTGATTTGGAGCCTTAT-TTGGGTTTACATTATCCGGCAA   1209
+
+Brapa_phy1       922 CTGATATACCACAAGCCTCTAGATTTCTCTTTATGAGGAACAAGGTTAGG    971
+                     |.|||||.||.||.||..||.|.||..|.||.|....||||...||..|.
+At_phyE         1210 CAGATATTCCTCAGGCTGCTCGGTTCTTGTTCAAACAGAACCGTGTCCGA   1259
+
+Brapa_phy1       972 ATGATTTGTGATTGTTCGGCTGTTCCAGTTAAAGTAGTCC------AGGA   1015
+                     |||||||||||.||....||...|||.|||||.||.||.|      ||||
+At_phyE         1260 ATGATTTGTGACTGCAATGCAACTCCGGTTAAGGTTGTTCAGAGTGAGGA   1309
+
+Brapa_phy1      1016 ---CAAGAGTCTCTCAC-------AGCCGATTACTCTCGCTGGATCTACT   1055
+                        ||||||.|   |||       ||    |||.|         ||||||
+At_phyE         1310 ACTCAAGAGAC---CACTTTGTTTAG----TTAAT---------TCTACT   1343
+
+Brapa_phy1      1056 CTGAGAGCTCCTCATGGCTGTCACGCGCAGTATATGAGTAATATGGGCTC   1105
+                     ||.|||||||||||||||||.||..|||||||||||...|||||||||||
+At_phyE         1344 CTAAGAGCTCCTCATGGCTGCCATACGCAGTATATGGCGAATATGGGCTC   1393
+
+Brapa_phy1      1106 AGTGGCATCTCTTGTTATGTCCGTAACGATCAATGGTAGTGAGAGTGATG   1155
+                     .||.||.|||||||          .||...||||.|||||.|.||     
+At_phyE         1394 TGTAGCTTCTCTTG----------CACTCGCAATTGTAGTAAAAG-----   1428
+
+Brapa_phy1      1156 AGATGAACAGAGATTTGCAGACGGGTAG-AACCTTATGGGGCTTAGTGGT   1204
+                           .||.|||||.|         || ||.||| |||||.|||||.||
+At_phyE         1429 ------GCAAAGATTCG---------AGCAAGCTT-TGGGGATTAGTTGT   1462
+
+Brapa_phy1      1205 TTGTCATCA-----CGCAAGTCCTAGGGTCGTCCCGTTTCCTCTGAGATA   1249
+                     |.|||||||     |     ||||||...|||.||.||.||..||.|.||
+At_phyE         1463 TGGTCATCATTGTTC-----TCCTAGATACGTTCCATTCCCGTTGCGGTA   1507
+
+Brapa_phy1      1250 TGCCTGTGAATTCTTGACTCAGGTGTTTGGCGTGCA-CATCAACAAGGAA   1298
+                     |||.|||||.||..|||..||.|..|||||..|.|| |.|||| |.||||
+At_phyE         1508 TGCTTGTGAGTTTCTGATGCAAGCATTTGGGCTTCAGCTTCAA-ATGGAA   1556
+
+Brapa_phy1      1299 GCGGAATCAGCTCTTCTGTT----------------GAAAGAGAAGCATA   1332
+                                 ||||.|||                ||.| |||||..||
+At_phyE         1557 ------------CTTCAGTTAGCATCACAGTTAGCCGAGA-AGAAGGCTA   1593
+
+Brapa_phy1      1333 TTCTGCAAACTCAGAGTGTGCTATGTGACATGCTTTTTCGCAATGCACCT   1382
+                        |||..||.||||...||.|.||.||.||||||.|.||   ||     
+At_phyE         1594 ---TGCGGACGCAGACCTTGTTGTGCGATATGCTTCTCCG---TG-----   1632
+
+Brapa_phy1      1383 ATA--------GGTATAGTCACTCAGTCTCCAAATATAATGGATCTTGTT   1424
+                     |||        |.|||.||.||.||.|||||...|||.|||||.|||||.
+At_phyE         1633 ATACTGTTTCCGCTATTGTTACACAATCTCCGGGTATTATGGACCTTGTG   1682
+
+Brapa_phy1      1425 AAATGTGATGGAGCAGCTCTTTATTACA--GAGATAAGCTCTGGGCTT--   1470
+                     ||||||||||||||.||..|.|||||||  |.||.|.|.|    |.||  
+At_phyE         1683 AAATGTGATGGAGCTGCGTTATATTACAAGGGGAAATGTT----GGTTGG   1728
+
+Brapa_phy1      1471 TAGGGGTTGCTCCTACAGAGACACAAATTAGAGATATAATCGATTGGGTT   1520
+                     |.||.|||.||||||..|||.|||||.|||.|||..|..|..|||||.| 
+At_phyE         1729 TTGGTGTTACTCCTAATGAGTCACAAGTTAAAGACTTGGTGAATTGGCT-   1777
+
+Brapa_phy1      1521 CTCAAAAGTCAAGGAGGAGGAA--ACAGTG----------GCGTT--ACC   1556
+                                 ||.||| |||  ||.|||          |.|||  |||
+At_phyE         1778 ------------GGTGGA-GAATCACGGTGATGATTCGACGGGTTTAACC   1814
+
+Brapa_phy1      1557 ACTGAAAGTCTAATGGAGTCTGGCTATCCGGATGCTTCCGTC---CTCGG   1603
+                     |||||.|||.|..||||..|.||.||.||   ||.|.||.||   ||.||
+At_phyE         1815 ACTGATAGTTTGGTGGATGCGGGATACCC---TGGTGCCATCTCACTTGG   1861
+
+Brapa_phy1      1604 GGAGTCAATCTGTGGAATGGCTGCCGTA-CATATAACCCAAAAGGTT--T   1650
+                     .||..|..|.|||||..|||||||||.| .||.|....||||||.||  |
+At_phyE         1862 AGATGCCGTTTGTGGTGTGGCTGCCGCAGGATTTTCTTCAAAAGATTACT   1911
+
+Brapa_phy1      1651 TCCTTTTCTGGTTCCGGTCTGGCACTGCAAAACAG----ATCAAGTGGGG   1696
+                     |.|||   ||||||.||||....||||||    ||    |||||.|||||
+At_phyE         1912 TACTT---TGGTTCAGGTCCAATACTGCA----AGTGCAATCAAATGGGG   1954
+
+Brapa_phy1      1697 TGGTGCAAGACATGATCCTGATGACAGAGATGGT---AAAAGGATGCATC   1743
+                     .||.||.|.||||.||||..|.||.|.|||||.|   ..|||.|||||||
+At_phyE         1955 AGGAGCTAAACATCATCCAAAGGATAAAGATGATGCCGGAAGAATGCATC   2004
+
+Brapa_phy1      1744 CTAGATCCTCGTTCAAGGCTTTTATGGAAATAGTCCGGTG-GAAAAGTA-   1791
+                     |.||.||.|||||.|..||.|||.|.|||       |.|| |||.||.| 
+At_phyE         2005 CGAGGTCATCGTTTACAGCCTTTCTTGAA-------GTTGCGAAGAGCAG   2047
+
+Brapa_phy1      1792 -----TGCCCTGGG--ATGACATGGAAATGGATGCAATCAATTCTCTGCA   1834
+                          ||||.||||  ||..||  |||||.|||||.|||.||||.||| |
+At_phyE         2048 GAGCTTGCCGTGGGAAATCTCA--GAAATTGATGCTATCCATTCCCTG-A   2094
+
+Brapa_phy1      1835 G-CTGATAATAAAAGGCTCACTGCAAGAGGAGCATCCAGACACTGTTGTG   1883
+                     | ||.|||||.|.||..|||.|    .|..||| ||.||.| |.|||.||
+At_phyE         2095 GACTTATAATGAGAGAGTCATT----TACCAGC-TCTAGGC-CAGTTTTG   2138
+
+Brapa_phy1      1884 AATGTGCCGCCGTTTGTGGATAATAGAGT--CCAGAAGGTGGATG-AAAT   1930
+                                   |.||| ||||.|.||  |.|||     |||| .|||
+At_phyE         2139 --------------TCTGG-TAATGGCGTAGCAAGA-----GATGCTAAT   2168
+
+Brapa_phy1      1931 GTGTGTTA------TTGTGAACGAAATGGTGCGGTTGATTGACACAGCTG   1974
+                     |.| .|||      |||||...||||||||..||.|||||||.||.||..
+At_phyE         2169 GAG-CTTACTTCTTTTGTGTGTGAAATGGTTAGGGTGATTGAAACCGCAA   2217
+
+Brapa_phy1      1975 CTGTTCCGATCTTTGCGGCTGATGCCTCTGG-TGTTATAAACGGTTGGAA   2023
+                     |||..||.||.||||.||.||||.|.||.|| || |||.||.||||||||
+At_phyE         2218 CTGCACCTATTTTTGGGGTTGATTCATCCGGATG-TATTAATGGTTGGAA   2266
+
+Brapa_phy1      2024 TTCA--AAAGCGGCTGAGGTGACTGGGT---TGGCTGTTGAACAAGCGAT   2068
+                       ||  |||.|.|||||..||||.||.|   |.|||..||   ||||.||
+At_phyE         2267 --CAAGAAAACCGCTGAAATGACGGGATTACTAGCTAGTG---AAGCAAT   2311
+
+Brapa_phy1      2069 AGGCAA---ACCTGTATCAGAT---ATCGTTGAAGATGATTCTGCAATAA   2112
+                     .||.||   ||.||   |.|||   ||.|||.||||       |.|||.|
+At_phyE         2312 GGGGAAGTCACTTG---CCGATGAGATTGTTCAAGA-------GGAATCA   2351
+
+Brapa_phy1      2113 C-CG------TTAAGAA-----CATGTTAGCATTGGCTCTCCAAGGT--A   2148
+                     | ||      ||  |||     |.|||  ||| ..||.||.||||||  |
+At_phyE         2352 CGCGCAGCTCTT--GAAAGTCTCTTGT--GCA-AAGCCCTACAAGGTGAA   2396
+
+Brapa_phy1      2149 GCGAAGAA---CGTGGCGCCGAGATCAGGATCAGAGCA--TTTGGTCCTA   2193
+                     |.|.||||   .||...||.||       |.|.|||.|  |||||||   
+At_phyE         2397 GAGGAGAAAAGTGTAATGCTGA-------AACTGAGAAAGTTTGGTC---   2436
+
+Brapa_phy1      2194 AAAGGAAAAGCAGTCCTATTGAATTA-------------------GTCGT   2224
+                     |||  |.||.|| |||    |.||||                   .||||
+At_phyE         2437 AAA--ACAATCA-TCC----GGATTATTCTTCTGATGTGTGTGTTCTCGT   2479
+
+Brapa_phy1      2225 CAACACTTGCTGTAGCAGAGA-TACAAGGAATAATGTTCTTGGTGTGTGC   2273
+                     .|||.|.|||...||..|.|| ||.|..||| |||.|..|.|||||.|||
+At_phyE         2480 TAACTCCTGCACGAGTCGGGATTATACTGAA-AATATCATCGGTGTCTGC   2528
+
+Brapa_phy1      2274 TTCATTGGACAAGATGTTACAGGCCAGAAGACGCTTATTGAGA-------   2316
+                     |||.||||.|||||..|.||               ||.|||||       
+At_phyE         2529 TTCGTTGGTCAAGACATCAC---------------TAGTGAGAAAGCAAT   2563
+
+Brapa_phy1      2317 ---AGTATAG------CCGCGTGCAAGGAGATTACGCCAGAATCATGTGG   2357
+                        || ||||      |.|..|||||||||||||  |.|||.|..|||..
+At_phyE         2564 AACAG-ATAGATTCATCAGATTGCAAGGAGATTA--CAAGACTATTGTTC   2610
+
+Brapa_phy1      2358 AGCCCTTCAA--CACTGATCCCACCAATTTTT-----ATGACCACTGAGA   2400
+                     |...|||.||  |..||||.|||||.||.|||     | ||    |||.|
+At_phyE         2611 AAAGCTTAAATCCTTTGATTCCACCGATATTTGCTTCA-GA----TGAAA   2655
+
+Brapa_phy1      2401 ATGGGTTATGCTCAGAGTGGAACGACGCGATGCAGAAGCTCTCTGGTATA   2450
+                     |||..|..||.||.||||||||||..||.|||.|.|||||..|.||   |
+At_phyE         2656 ATGCTTGTTGTTCTGAGTGGAACGCAGCAATGGAAAAGCTTACGGG---A   2702
+
+Brapa_phy1      2451 AGGAGAGAAGAAGCTGTGAAT---AAAATGCTTC------------TTGG   2485
+                     .||..|.||.|.|..||||.|   ||||||||.|            ||||
+At_phyE         2703 TGGTCAAAACACGAGGTGATTGGGAAAATGCTACCCGGTGAAGTCTTTGG   2752
+
+Brapa_phy1      2486 AGAGGTTT-TCACCTCAAATGACTCATGCTGTCGCCTTC---AAGACCAT   2531
+                     ||...||| |.|..|.|||||  .||.|.| ||||  ||   |||..|.|
+At_phyE         2753 AGTCTTTTGTAAAGTGAAATG--CCAAGAT-TCGC--TCACAAAGTTCTT   2797
+
+Brapa_phy1      2532 GA---CAC-GTTAACTAAACTCAGAATAGCT--TTA-AATG---CTGTGA   2571
+                     ||   |.| ||  ||.||    .||||.|||  |.| ||||   |.|.||
+At_phyE         2798 GATCTCTCTGT--ACCAA----GGAATTGCTGGTGATAATGTTCCCGAGA   2841
+
+Brapa_phy1      2572 GTT--CTGGCCAGGATAACATAGAGAAGCTTTTATTTGGCTTCTACCATC   2619
+                     |||  ||||                          |||..||||...||.
+At_phyE         2842 GTTCACTGG--------------------------TTGAGTTCTTTAATA   2865
+
+Brapa_phy1      2620 GTGATGGTAGATTCATCGAGGCCTTGCTTT--CTGCAAACAAAAGAACTG   2667
+                     ..||.||.|..|.|||.||.||.|  |.||  |.||.|||||.||.||..
+At_phyE         2866 AGGAAGGGAAGTACATAGAAGCAT--CCTTAACCGCGAACAAGAGTACAA   2913
+
+Brapa_phy1      2668 ACATGGAAGGAAAAGTTACAGGGGTTTTATGCTTTCTGCA-AGTACCTA-   2715
+                     ||||.|||||||||||||.|.|...|||.|.|||..|||| |.||.|.| 
+At_phyE         2914 ACATCGAAGGAAAAGTTATAAGATGTTTCTTCTTCTTGCAGATTATCAAT   2963
+
+Brapa_phy1      2716 -------------------GTCCAGAACTCCAATA---CGCTCTACAGGT   2743
+                                        |.||||||||..||.|   ||||| |.||..
+At_phyE         2964 AAGGAATCGGGGTTGAGCTGCCCAGAACTGAAAGAGAGCGCTC-AAAGCC   3012
+
+Brapa_phy1      2744 TCAGCGAAT--------ATCAGAGCAGGCAATGGCCTGCGCTGTCAACAA   2785
+                     |||.|||||        .|.||| ||.|.||            ||||.||
+At_phyE         3013 TCAACGAATTAACTTACGTAAGA-CAAGAAA------------TCAAGAA   3049
+
+Brapa_phy1      2786 AATGGCATATCTCCGC-CAACAAGTGGAGAATCCAGA-------AAAAGC   2827
+                                |||.| ||||      .|.|||| ||       |.||||
+At_phyE         3050 -----------TCCTCTCAAC------GGTATCC-GATTTGCACATAAGC   3081
+
+Brapa_phy1      2828 AATATCCT----TCCTTCA-AGATTTTCTACATTCATCTGGATTAAATGA   2872
+                         |.||    ||| ||| ||||        ||||.||.|         
+At_phyE         3082 ----TTCTTGAATCC-TCAGAGAT--------TTCAGCTAG---------   3109
+
+Brapa_phy1      2873 AGAACAAAAGCAG-CTCTTGAGTACAAGCGTGTCATGC-AGGGAGCAGTT   2920
+                        .||||.|||| .|||.||| ||.|    ||.|||| .|.|||.||  
+At_phyE         3110 ---CCAAAGGCAGTTTCTGGAG-ACTA----GTGATGCTTGTGAGAAG--   3149
+
+Brapa_phy1      2921 AGCCAAAGTC------ATAAGCGA---CTCAGACATAGAGGGAATTGAGG   2961
+                        |||| ||      ||||.|||   |.|.|||.|..|..|.|||||||
+At_phyE         3150 ---CAAA-TCACGACAATAATCGAAAGCACGGACTTGAAAAGCATTGAGG   3195
+
+Brapa_phy1      2962 ATGGGTATGTGCAGCTGGGTTG----CAG-CGAATTCAGCCTTGAGGAAT   3006
+                     |.||..|..||||     .|||    ||| .||.||..|.|||||  ||.
+At_phyE         3196 AAGGCAAGTTGCA-----ATTGGAAACAGAAGAGTTTCGACTTGA--AAA   3238
+
+Brapa_phy1      3007 C--CCTGG----AATCAGTTGTAAAACAAGTCATG------------GAG   3038
+                     |  |.|||    |||||    |.|..|||||.|||            |||
+At_phyE         3239 CATCTTGGACACAATCA----TTAGCCAAGTGATGATTATATTGAGAGAG   3284
+
+Brapa_phy1      3039 CTGAGCATAGAACGTA-------AAGT------GCAGATCA----TCTGC   3071
+                     ..||.|..|.||| ||       ||||      |.||||||    |||| 
+At_phyE         3285 AGGAACTCACAAC-TAAGGGTTGAAGTCGCCGAGGAGATCAAAACTCTG-   3332
+
+Brapa_phy1      3072 GATTATCCTCAAGAAGTTTCGTTAAT-GAGACTGTATGGAGATTCCTTAA   3120
+                           ||||           |.||| |.|||       |||.||    |
+At_phyE         3333 ------CCTC-----------TCAATGGTGAC-------AGAGTC----A   3354
+
+Brapa_phy1      3121 GGCTTCAGCAAATCCTTTCAGAGACACTCT------CAA------GCAGC   3158
+                     .|||.||||..||.|||.|.||     |||      |||      |.|.|
+At_phyE         3355 AGCTCCAGCTTATTCTTGCTGA-----TCTTCTACGCAACATTGTGAATC   3399
+
+Brapa_phy1      3159 ATACG--GTTCACTCCTGCATTAAA-----GGGACTGTGCGTATCATTTA   3201
+                     ||.||  |||   |||      |||     ||    ||..||||||.|  
+At_phyE         3400 ATGCGCCGTT---TCC------AAATAGTTGG----GTAGGTATCAGT--   3434
+
+Brapa_phy1      3202 AGGTAATGTCAC--GGATAGAAGCTAT--AGGGAAAAGAATGAAGAGAGT   3247
+                          ||.||||  ||..||.||||.|  .|.|   |.||||      ||
+At_phyE         3435 -----ATCTCACCAGGGCAGGAGCTTTCACGTG---ACAATG------GT   3470
+
+Brapa_phy1      3248 AG--------AGCTAGAGTTCAGGATAATACACCCGGCACCG----GGAC   3285
+                     .|        |.|||.||||||||||.|||||.||||    |    ||||
+At_phyE         3471 CGCTATATCCATCTACAGTTCAGGATGATACATCCGG----GGAAAGGAC   3516
+
+Brapa_phy1      3286 TGCCT---GACGATCTAG-TAAGAGAGATGTTTCAGCCTTTGAGGAAAGA   3331
+                     |.|||   || |||   | ||||.||.||||||.||.||           
+At_phyE         3517 TTCCTTCAGA-GAT---GCTAAGTGATATGTTTGAGACT-----------   3551
+
+Brapa_phy1      3332 TACATCAAGGGAAGGATTGGGACTACACATAACACAGAAGATGGT-----   3376
+                            .|.||.||| ||||.| ||.|.|         ||||||     
+At_phyE         3552 -------CGAGATGGA-TGGGTC-ACCCCT---------GATGGTTTAGG   3583
+
+Brapa_phy1      3377 ---------------GAAACTCATGGAG-GGAGGAA----CGT-TGAGAT   3405
+                                    ||||||..||||| .||.|||    ||| ||||.|
+At_phyE         3584 GCTTAAGCTTTCGCGGAAACTATTGGAGCAGATGAATGGCCGTGTGAGTT   3633
+
+Brapa_phy1      3406 ACTTGAGAGAATCGGAAATGTCAGCTTTTGTAATCCTCGCAGAATTTCCA   3455
+                     |..|..|||||...|||..||                            .
+At_phyE         3634 ATGTCCGAGAAGACGAACGGT----------------------------G   3655
+
+Brapa_phy1      3456 TTGCTTTGA-ATGCAACTCTCCAAGGTCTCAATA-AAT------AATTGA   3497
+                     ||.||||.| .||.|  |||.||||   |.||.| |||      ..||||
+At_phyE         3656 TTTCTTTCAGGTGGA--TCTTCAAG---TGAAGACAATGTTAGGTGTTGA   3700
+
+Brapa_phy1      3498 ATAAATA--ATCGGACGTCACTGGATTTCA--CATAAATGTA-----TGT   3538
+                     .|.||.|  |.|.||.|     |.|.||||  |||||| |||     |.|
+At_phyE         3701 GTCAAGAGGAACAGAGG-----GTAGTTCAAGCATAAA-GTAGAAATTTT   3744
+
+Brapa_phy1      3539 TAGTTAC------TGTAACAT------AAATATAGGACGTT-----AATG   3571
+                     .||||||      |.|||.||      |||| |.||.|..|     ||||
+At_phyE         3745 GAGTTACAAGGCTTATAAAATTTAATGAAAT-TTGGTCTCTTACCAAATG   3793
+
+Brapa_phy1      3572 TAATAATATACA-------TACTAGATTT-TGACC-CTTCAAGCGCGGGT   3612
+                     ||.|||| ||.|       |||...|||| |.||| |  |||        
+At_phyE         3794 TATTAAT-TAGAACAAAGGTACATTATTTATTACCAC--CAA--------   3832
+
+Brapa_phy1      3613 TGTTGGATTATATTATA---ATACTAGGTGTA-----------------T   3642
+                       |..||||.|||..||   ||.|||.||.||                 |
+At_phyE         3833 --TAAGATTGTATCTTAACTATCCTATGTATACAATTTGGAGAGATCATT   3880
+
+Brapa_phy1      3643 TGCCCGCGATGCGGGC-----TTAAACA   3665
+                     ||   ||.|..|.|.|     |.|||||
+At_phyE         3881 TG---GCCAACCAGACAAAAGTAAAACA   3905
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Brapa_phy1
+# 2: At_phyD
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4281
+# Identity:    2362/4281 (55.2%)
+# Similarity:  2362/4281 (55.2%)
+# Gaps:        1095/4281 (25.6%)
+# Score: 5363.5
+# 
+#
+#=======================================
+
+Brapa_phy1         1 GAATC------------AATCTACCCATTTCCTCTCCTCTCTGGGATTCA     38
+                     |||||            ||      .||||.|| ||.|||||.|    ||
+At_phyD          278 GAATCCAATGATTGAAGAA------GATTTTCT-TCGTCTCTCG----CA    316
+
+Brapa_phy1        39 CTCACT-----AAAGT----AACCA------AAGAAAAGAT---------     64
+                     ||.|.|     |||.|    |||||      .|||||| ||         
+At_phyD          317 CTAATTCTTTGAAATTCCAAAACCATTAACTGAGAAAA-ATGGTCTCCGG    365
+
+Brapa_phy1        65 --------GCAAA-------------------CT--CTCA---AAT----     78
+                             |||||                   ||  ||||   .||    
+At_phyD          366 AGGTGGTAGCAAAACCAGCGGTGGAGAGGCAGCTTCCTCAGGCCATCGCC    415
+
+Brapa_phy1        79 -AAATC--------------GCAGGAAAC--------------GAAAACA     99
+                      ||.||              ||||  |||              |.|||||
+At_phyD          416 GAAGTCGTCACACCAGCGCTGCAG--AACAAGCTCAGTCGTCAGCAAACA    463
+
+Brapa_phy1       100 AAGGTCTAAGAATGTCATCAG--GTAGCAGC-----AATTCCGGAAGCTG    142
+                     |||..|||||   |||| |||  ..||||||     ||...|||..||.|
+At_phyD          464 AAGCCCTAAG---GTCA-CAGAATCAGCAGCCACAAAACCACGGTGGCGG    509
+
+Brapa_phy1       143 TTCAACTCGA-TCCAGAAACAACTCTCGACTTTCTTCACAAGTCCTC-GC    190
+                     ..||    || ||||.||||||..|       |.||||..|||.|.| |.
+At_phyD          510 AACA----GAGTCCACAAACAAAGC-------TATTCAACAGTACACTGT    548
+
+Brapa_phy1       191 TGATGCAAAGCTCCACGGGAGT-TTCGAGGAATCC-GAGCGCTTA-----    233
+                     .||.||.|..|||||| |..|| |||||..||||| |||.| |.|     
+At_phyD          549 CGACGCGAGACTCCAC-GCCGTCTTCGAACAATCCGGAGAG-TCAGGTAA    596
+
+Brapa_phy1       234 ----TTCGACTACTCA-----GCTTCAATTCACGTGAACATGCCCACCTC    274
+                         ||.||.||||||     .|||.||   |||                
+At_phyD          597 GTCGTTTGATTACTCACAGTCTCTTAAA---ACG----------------    627
+
+Brapa_phy1       275 CTCGTCCTACGA--CATCCCTTCC---TCTTCAGACGTCTCATCTTA-CT    318
+                      .||.|.|||||  |.|||.|.||   .|..||||  ||.||.|||| ||
+At_phyD          628 -GCGCCGTACGATTCCTCCGTACCAGAGCAGCAGA--TCACAGCTTATCT    674
+
+Brapa_phy1       319 TACACAAGATTCAGAGAGGGATG--TTGATTCAGCCCTTTGGTTGCTTAA    366
+                     ..| |..|||.||..|.||  ||  |..|..|||||.|||||.|||||.|
+At_phyD          675 CTC-CCGGATCCAACGCGG--TGGCTATACCCAGCCTTTTGGCTGCTTGA    721
+
+Brapa_phy1       367 TCGTCGTTGACGACAAGACCC----TCAAAGTAATTGCCTTTAGCGAGAA    412
+                     |||.|||.||.||    |.||    |||.|.|.||.|..|..||.||.||
+At_phyD          722 TCGCCGTCGAAGA----ATCCACTTTCACAATCATCGGTTACAGTGAAAA    767
+
+Brapa_phy1       413 CACGCAAGAGATG-TTGGGTT--TGTCTCCACACACTGTGCCTAGCATGG    459
+                     ..|||..||.||| |.|||.|  |||||   ||..||||.||.|||||.|
+At_phyD          768 TGCGCGGGAAATGCTAGGGCTCATGTCT---CAATCTGTACCAAGCATCG    814
+
+Brapa_phy1       460 AG-------CAACGTGAGGCTCTGAGTATCGGAACTGATGTGCAGTCTCT    502
+                     ||       ||    ||||.|.|.|..||.||.||.|||.|||..|||||
+At_phyD          815 AGGACAAATCA----GAGGTTTTAACGATTGGTACGGATTTGCGATCTCT    860
+
+Brapa_phy1       503 GTTTCAGTC-TCAAGGCT--CTTCT----------GCGTT----GCAGAA    535
+                     .||..|||| ||.| |||  |||||          |||||    ||    
+At_phyD          861 CTTCAAGTCATCGA-GCTACCTTCTCCTCGAGCGCGCGTTCGTGGC----    905
+
+Brapa_phy1       536 AGCTGCTGACTTTGGTGAGATTAGTATTCTGAATCCTATCACGCTTCACT    585
+                                 |.|.|||||.|...|||||||||||||...|.||||||
+At_phyD          906 ------------TCGAGAGATCACGCTTCTGAATCCTATTTGGATTCACT    943
+
+Brapa_phy1       586 ---GCAGGACTTCGGGTAAGCCTTTCTATGCCATTCTCCATCGGATTGAA    632
+                        .||..|||   |||||.||||||||.||.||||||||..||.||||.
+At_phyD          944 CTAACAACACT---GGTAAACCTTTCTACGCGATTCTCCACAGGGTTGAT    990
+
+Brapa_phy1       633 CAAGGTCTCGTTATAGATTTGGAGCCAGTGGGTCTTGA---TGAGGTCCC    679
+                     ...||..|..|.||.|||||.|||||     |.||.||   ..||.||| 
+At_phyD          991 GTTGGAATTTTGATCGATTTAGAGCC-----GGCTCGAACCGAAGATCC-   1034
+
+Brapa_phy1       680 AGTGACTGCT------GCTGGTGCGTTGAAGTCATACAAGCTCGC-----    718
+                      |..|||  |      ||.||.||     ||||   |||  ||||     
+At_phyD         1035 -GGCACT--TTCAATCGCCGGAGC-----AGTC---CAA--TCGCAGAAA   1071
+
+Brapa_phy1       719 --TGC--TAAAT-CGATTTCGAGGTTGCAGGCTTTGCCTAGTGGGAATAT    763
+                       |||  ||..| |||||||....||.||..|.||||||||.||..|.||
+At_phyD         1072 CTTGCGGTACGTGCGATTTCTCATTTACAATCGTTGCCTAGCGGCGACAT   1121
+
+Brapa_phy1       764 GTCGTTGCTCTGTGATGCTTTAGTTAAGGAA---GTTAGTGAGTTAACCG    810
+                     ...|.|.||.|||||..||   |||..||||   |||||.||..|.||.|
+At_phyD         1122 TAAGCTTCTATGTGACACT---GTTGTGGAAAGCGTTAGAGATCTTACTG   1168
+
+Brapa_phy1       811 GGTATGATAGGGTGATGGTTTATAAGTTTCATGGAGATGGGCATGGGGAA    860
+                     |.||.||..|.||.|||||.||.||||||||||.|||||..|||||.|||
+At_phyD         1169 GCTACGACCGCGTTATGGTGTACAAGTTTCATGAAGATGAACATGGTGAA   1218
+
+Brapa_phy1       861 GTGATTGCTGAGTGCTGTAA--GGCA-GACTTGGAACCTTATCTTGGGTT    907
+                     ||..|.||.|||   .||||  ||.| ||.||.||.|||||..||||..|
+At_phyD         1219 GTCGTAGCCGAG---AGTAAACGGAACGATTTAGAGCCTTACATTGGTCT   1265
+
+Brapa_phy1       908 GCATTACTCGGCTACTGATATACCACAAGCCTCTAGATTTCTCTTTATGA    957
+                     ||||||..|.|||||||||||.||.||.||.|||.|.||..|.||.|.|.
+At_phyD         1266 GCATTATCCCGCTACTGATATTCCTCAGGCATCTCGGTTCTTGTTCAAGC   1315
+
+Brapa_phy1       958 GGAACAAGGTTAGGATGATTTGT-GATTGTTCGGCTGT-TCCAGTTAAAG   1005
+                     ..|||...|||||||||| |.|| |||||.|..|| || .||.|||...|
+At_phyD         1316 AAAACCGTGTTAGGATGA-TAGTAGATTGCTATGC-GTCACCGGTTCGTG   1363
+
+Brapa_phy1      1006 TAGTCCAGGACAAGAGTCTCTCACAGCCGATTACTCTCGCT-----GGAT   1050
+                     |.||.||.|||.|.||.|||.|.|||    ||..|.| |||     ||.|
+At_phyD         1364 TGGTTCAAGACGATAGGCTCACGCAG----TTTATAT-GCTTGGTGGGTT   1408
+
+Brapa_phy1      1051 CTACTCTGAGAGCTCCTCATGGCTGTCACGCGCAGTATATGAGTAATATG   1100
+                     |.|||.||.|||||||||||||||||||.||.||.||.||||.|||.|||
+At_phyD         1409 CGACTTTGCGAGCTCCTCATGGCTGTCATGCTCAATACATGACTAACATG   1458
+
+Brapa_phy1      1101 GGCTCAGTGGCATCTCTTGTTATGTCCGTAACGATCAATGGTAGTG----   1146
+                     |||||..|.||.||..|.|.||||.|.||.|..||.|||||.|..|    
+At_phyD         1459 GGCTCTATTGCGTCGTTAGCTATGGCAGTTATAATAAATGGAAACGAAGA   1508
+
+Brapa_phy1      1147 AGA--GTGATGAGATGAACAGAGATTTGCAGACGGGTAGAACCT------   1188
+                     |||  ||.|||.|.|.||.|..|       ||  ||.||||.||      
+At_phyD         1509 AGATGGTAATGGGGTTAATACTG-------GA--GGAAGAAACTCGATGA   1549
+
+Brapa_phy1      1189 ---TATGGGGCTTAGTGGTTTGTCATCACGCA--AG-TCCTAGGGTCGTC   1232
+                        |.|||||.|||||.|||||.||||||.||  || ||.|.|   |.|.
+At_phyD         1550 GGCTTTGGGGTTTAGTTGTTTGCCATCACACATCAGCTCGTTG---CATA   1596
+
+Brapa_phy1      1233 CCGTTTCCTCTGAGATATGCCTGTGA-ATTCTTGACTCAGGTGTTTGGCG   1281
+                     ||.||||||.||||.||.||.||||| .||||| |..||||..||||||.
+At_phyD         1597 CCTTTTCCTTTGAGGTACGCTTGTGAGTTTCTT-ATGCAGGCCTTTGGCT   1645
+
+Brapa_phy1      1282 TGCACATCAACAAGGAAGCGGAATCAGCTCTT----CTGT-TGAAAGAGA   1326
+                     |.||..|.||||.|||...|.|.|.||| |||    .||| |||||   |
+At_phyD         1646 TACAGCTAAACATGGAGTTGCAGTTAGC-CTTGCAGGTGTCTGAAA---A   1691
+
+Brapa_phy1      1327 A-GCATATTCTGCAAACTCAGAGTGTGCTATGTGACATGCTTTTTCGCAA   1375
+                     | ||  .|||||..||..||||...|..|||||||.||||||.|.||..|
+At_phyD         1692 ACGC--GTTCTGAGAATGCAGACACTATTATGTGATATGCTTCTACGTGA   1739
+
+Brapa_phy1      1376 TGCACCTATAGGTATAGTCACTCAGTCTCCAAATATAATGGATCTTGTTA   1425
+                     ..||||....||.||.|||||.|||...||.|.|||.||||||.|.||.|
+At_phyD         1740 CTCACCAGCGGGGATTGTCACGCAGAGGCCTAGTATCATGGATTTAGTAA   1789
+
+Brapa_phy1      1426 AATGTGATGGAGCAGC---TCTTTATTACAGAGA--TAAGCTCTGGGCTT   1470
+                     |||||.||||.||.||   ||||||..| ||.||  ||...||    |.|
+At_phyD         1790 AATGTAATGGTGCGGCATTTCTTTACCA-AGGGAAGTATTATC----CGT   1834
+
+Brapa_phy1      1471 TAGGGGTTGCTCCTACAGAGACACAAATTAGAGATATAATCGA----TTG   1516
+                     |.||.||..||||.||.||..|.||.||||..||.||..|.||    |||
+At_phyD         1835 TGGGTGTGACTCCAACTGATTCTCAGATTAATGACATTGTGGAGTGGTTG   1884
+
+Brapa_phy1      1517 GGTTCTCAAAAGTCAAGGAGGAGGAAACAGTG--------GCGTT-ACCA   1557
+                     |.|.||.|..|.||                ||        |.||| |.||
+At_phyD         1885 GTTGCTAACCATTC----------------TGATTCTACCGGGTTAAGCA   1918
+
+Brapa_phy1      1558 CTGAAAGTCTA----ATGGAGTCTGGCTATCC---GGATGCTTCCGTCCT   1600
+                     |.||.|||.||    |||    |.||.|||||   ||..||     |.||
+At_phyD         1919 CAGATAGTTTAGGCGATG----CGGGTTATCCTCGGGCAGC-----TGCT   1959
+
+Brapa_phy1      1601 CGGGGAGTCAAT-CTGT----GGAATGGCTGCCGTACATATAACCCAAAA   1645
+                     ..|||||   || ||||    ||.|||||.|.||  |.|.||.|.|||||
+At_phyD         1960 TTGGGAG---ATGCTGTGTGCGGTATGGCAGTCG--CGTGTATCACAAAA   2004
+
+Brapa_phy1      1646 --GGTTTTCCTTTTCTGGTTCCGGTCTGGCACTGCAAAACAGATCAAGTG   1693
+                       ||..||||||||||||||.||||||...||||..|||.|.|||||.||
+At_phyD         2005 AGGGACTTCCTTTTCTGGTTTCGGTCTCATACTGAGAAAGAAATCAAATG   2054
+
+Brapa_phy1      1694 GGGTGGTGC-AAGACATGATCCTGATGACAGA---GATGGTAAAAGGATG   1739
+                     |||.||.|| ||| ||..|||||||.||||.|   ||||||.|..|||||
+At_phyD         2055 GGGAGGGGCTAAG-CACCATCCTGAGGACAAAGATGATGGTCAGCGGATG   2103
+
+Brapa_phy1      1740 CATCCTAGATCCTCGTTCAAGGCTTTTATGGAAATAGT------CCGGTG   1783
+                     .||||..|.||.||||||.||.|||||.|.|||.|.||      |||   
+At_phyD         2104 AATCCGCGTTCTTCGTTCCAGACTTTTCTCGAAGTTGTTAAGAGCCG---   2150
+
+Brapa_phy1      1784 GAAAAGTATGCCCTGGGATGACATG--GAAATGGATGCAATCAATTCTCT   1831
+                        |.||..|||.|||||  |..||  ||||||||.||.||..|.||.||
+At_phyD         2151 ---ATGTCAGCCATGGGA--AACTGCTGAAATGGACGCCATTCACTCGCT   2195
+
+Brapa_phy1      1832 GCAGCTGATAATAAAAGGCTCACTGCAAGA----GGAGC-ATCCAGACAC   1876
+                     .|||||.||..|||.||.|||..|..||||    |.||| ||  .|||.|
+At_phyD         2196 CCAGCTTATTCTAAGAGACTCTTTCAAAGAGTCTGAAGCGAT--GGACTC   2243
+
+Brapa_phy1      1877 T---GTTG-TGAATGTGCCGCCGTT--------TGTGGATAATAGAGTCC   1914
+                     |   |.|| ||.|..||..||.|||        ||..|||.|||..||.|
+At_phyD         2244 TAAAGCTGCTGCAGCTGGGGCGGTTCAGCCACATGGAGATGATATGGTAC   2293
+
+Brapa_phy1      1915 AG-AAGG--TGGATGAAATGTGTGTTATTGTGAACGAAATGGTGCGGTTG   1961
+                     || ||||  ||.|.||.||..|||...|||..|..||.|||||..||.|.
+At_phyD         2294 AGCAAGGGATGCAGGAGATAGGTGCAGTTGCAAGAGAGATGGTTAGGCTC   2343
+
+Brapa_phy1      1962 ATTGACACAGCTGCTGTTCCGATCTTTGCGGCTGATGCCTCTGGTGTTAT   2011
+                     |||||.||.||..|.|||||.||.||||            |||..|..||
+At_phyD         2344 ATTGAGACTGCGACGGTTCCTATATTTG------------CTGTGGACAT   2381
+
+Brapa_phy1      2012 AAACGGTTGGAATTCAA-------AAGCG--------GCTGAGGTGACTG   2046
+                     |.|||||||.|  ||||       || ||        ||.|||.||||.|
+At_phyD         2382 AGACGGTTGCA--TCAATGGGTGGAA-CGCCAAGATCGCAGAGCTGACCG   2428
+
+Brapa_phy1      2047 GGTTGGCTGTTGAACAAGCGATAGGCAAACCTGTATCAGATATCG----T   2092
+                     |..|..||||||||.|.||.||.||.||    ||..|.|.| |||    |
+At_phyD         2429 GTCTTTCTGTTGAAGACGCTATGGGAAA----GTCGCTGGT-TCGCGAAT   2473
+
+Brapa_phy1      2093 TGAAGATGATTCTGCAATAACCGT--TAAG-AACA--TGTTAG-------   2130
+                     |||       |.|.||  ||..||  .||| ||||  ||.|||       
+At_phyD         2474 TGA-------TATACA--AAGAGTACAAAGAAACAGTTGATAGGCTTCTT   2514
+
+Brapa_phy1      2131 -CATTG-GCTCTCCAAG-----GTAGCGAAGAACGTGGCGCCGAGATCAG   2173
+                      | ||| ||||||.|||     |.||..|||||.|||     |||.|||.
+At_phyD         2515 TC-TTGTGCTCTCAAAGGGGATGAAGGCAAGAATGTG-----GAGGTCAA   2558
+
+Brapa_phy1      2174 GATCAGAGCATTTGGT-----CCTAAAAGGAAAAGCA--GTCCTATTGAA   2216
+                     |.|.|.|.|.||||||     .|||.|||||||||||  ||    |||  
+At_phyD         2559 GCTGAAAACTTTTGGTTCCGAGCTACAAGGAAAAGCAATGT----TTG--   2602
+
+Brapa_phy1      2217 TTAGTCGTCAACACTTGCTGTAGCAGAGA-TAC--AAGGAATAATGTTC-   2262
+                      |.||.||||||.|.||.|..||||..|| |||  ||..||.|    || 
+At_phyD         2603 -TGGTTGTCAACGCATGTTCAAGCAAGGACTACTTAAACAACA----TCG   2647
+
+Brapa_phy1      2263 TTGGTGTGTGCTTCATTGGACAAGATGTTACAGGCCAGAAGACGCTTATT   2312
+                     ||||.||.|||||..|||||||||||||.||.||.||.||.|...||||.
+At_phyD         2648 TTGGAGTCTGCTTTGTTGGACAAGATGTAACTGGTCATAAAATTGTTATG   2697
+
+Brapa_phy1      2313 GAGAAGTATAGCCGCGTGCAAGGAGATTAC---GCCAGAAT-CATGTGGA   2358
+                     ||.||||..|.|..|.|.|||||.||||||   ||||..|| |||    |
+At_phyD         2698 GACAAGTTCATCAACATACAAGGTGATTACAAGGCCATCATCCAT----A   2743
+
+Brapa_phy1      2359 GCCCTTCAA--CACTGATCCCACCAATTTTTATGACCA----CTGAGAAT   2402
+                     ||||  .||  |.||||||||.|||||.|||    .||    .|||||||
+At_phyD         2744 GCCC--GAACCCTCTGATCCCTCCAATCTTT----GCAGCGGATGAGAAT   2787
+
+Brapa_phy1      2403 GGGTTATGCTCAGAGTGGAACGAC-GCGATGCAGAAGCTC----TCTGGT   2447
+                     ..||..|||...||||||||| || ||.|||.|.||||||    .||||.
+At_phyD         2788 ACGTGCTGCCTTGAGTGGAAC-ACTGCAATGGAAAAGCTCACAGGCTGGC   2836
+
+Brapa_phy1      2448 ATAAGGAGAGAAGAAGCTGTGAAT---AAAATGCTTCTTGGAGAGGTTTT   2494
+                     .| .|.||.|||      ||||.|   |||.|.|||.||.|.||.||.||
+At_phyD         2837 CT-CGCAGCGAA------GTGATTGGAAAATTACTTGTTAGGGAAGTATT   2879
+
+Brapa_phy1      2495 CACCTCAAAT--GACTCATGCTGTCGCCTTCAAGAC--------CATGAC   2534
+                              |  ||     |||.|.||     ||||        |.|||.
+At_phyD         2880 ---------TGGGA-----GCTATTGC-----AGACTAAAGGGTCCTGAT   2910
+
+Brapa_phy1      2535 ACGTTAACTAAACTCAGAATAG-CTT---TAAATGCTGTGAGTTC--TGG   2578
+                     .||||||||||..|||..||.| |||   |||      .|.|.||  |||
+At_phyD         2911 GCGTTAACTAAGTTCATGATCGTCTTGCATAA------CGCGATCGGTGG   2954
+
+Brapa_phy1      2579 CCAGGATAAC--ATAGAGAAGCTT----------TTATTTGGCTTCTACC   2616
+                     |||.||| ||  |||.|     ||          ||.||||         
+At_phyD         2955 CCAAGAT-ACTGATAAA-----TTCCCATTCCCGTTCTTTG---------   2989
+
+Brapa_phy1      2617 ATCGTGATGGTAGATTCATCGAGG----CCTTGCTTTCTGCAAACAAA--   2660
+                     ||||..|.||...||||||..|||    |||..||||    .||||||  
+At_phyD         2990 ATCGCAAAGGGGAATTCATTCAGGCTCTCCTGACTTT----GAACAAACG   3035
+
+Brapa_phy1      2661 ----AGAACTGACATGGAAGGAAAAGTTACAGGGGTTTTATGCTTTCTGC   2706
+                         ||      |||.||.||.|||.|.|..||||.|||.||.|||.|||
+At_phyD         3036 GGTCAG------CATCGATGGCAAAATCATTGGGGCTTTCTGTTTTTTGC   3079
+
+Brapa_phy1      2707 AAGTACCTAGTCCAGAACTCCAATACGCTCTACAGGTTC-----------   2745
+                     |..||||.|||||.||.||.||..|.||||||.|.||||           
+At_phyD         3080 AGATACCGAGTCCCGAGCTGCAGCAAGCTCTAGAAGTTCAGAGGAGGCAG   3129
+
+Brapa_phy1      2746 ---AGCGAATA----TCAGAGCAGGCAA----TGGCCTGCGCTGTCAACA   2784
+                        ||.|||||    ||| ||.|||.||    ||||.|.|..|.||    
+At_phyD         3130 GAGAGTGAATATTTCTCA-AGGAGGAAAGAGTTGGCTTACATTTTC----   3174
+
+Brapa_phy1      2785 AAATGGCATATCTCCGCCAACAAG---TGGAGAATCCAGAAAAAGCAATA   2831
+                                         ||||   |..||||||||            
+At_phyD         3175 --------------------CAAGTTATAAAGAATCCA------------   3192
+
+Brapa_phy1      2832 TCCTTCCTTCA--AGAT----TTTCTAC--ATTCAT--CTGGA-------   2864
+                            ||.|  .|||    |||| ||  ||||||  |||||       
+At_phyD         3193 -------TTGAGTGGATTGCGTTTC-ACAAATTCATTGCTGGAAGACATG   3234
+
+Brapa_phy1      2865 ---TTAAATGAAGAACAAAAGCAGC-TCTTGAGTACAAGCGTGTCATGCA   2910
+                        |||||.||.||.||.||||||| |||||| .||.||.||.|||||..
+At_phyD         3235 GATTTAAACGAGGATCAGAAGCAGCTTCTTGA-AACGAGTGTTTCATGTG   3283
+
+Brapa_phy1      2911 GGGAGCAGTTAGC-CAAAG-TCATAAGCGACTCAGACATAGAGG------   2952
+                     .|.|||||  |.| ||||| |..||.|      ||||||.||.|      
+At_phyD         3284 AGAAGCAG--ATCTCAAAGATTGTAGG------AGACATGGACGTCAAAA   3325
+
+Brapa_phy1      2953 GAATTGAGGATGGGT-ATGTGCAGCTGGGTTGCAGCGAA-----TTCAGC   2996
+                     |.||.||.||.||.| || |.|.|||.|     ||.|||     |||..|
+At_phyD         3326 GCATAGATGACGGTTCAT-TTCTGCTAG-----AGAGAACAGAGTTCTTC   3369
+
+Brapa_phy1      2997 CTTGAGGAATCCCTGGAAT-CAGTTGTAAAACAAGTCA---TGGAGCTGA   3042
+                     .||| |.|||..|...||| ||||.||||..|||||||   |||.|.|||
+At_phyD         3370 ATTG-GCAATGTCACAAATGCAGTGGTAAGCCAAGTCATGTTGGTGGTGA   3418
+
+Brapa_phy1      3043 GCATAGAACGTAAAGTGCAGATCATCTGCG-ATTATCCTCAAGAAGTTTC   3091
+                     |   |||..|.||..|.|||.|.|||  || |..||.|.||.|.||    
+At_phyD         3419 G---AGAGAGAAATCTCCAGCTGATC--CGTAACATTCCCACGGAG----   3459
+
+Brapa_phy1      3092 GTTAATGA-----GACTG--TATGGAGATTCC--TTAAGGCTTCAGCAAA   3132
+                     ||.||  |     |.|||  ||.||.||  ||  .|||||||.||.||..
+At_phyD         3460 GTCAA--ATCCATGGCTGTCTACGGTGA--CCAGATAAGGCTCCAACAGG   3505
+
+Brapa_phy1      3133 TCCTTTCAGAGACACTCTCAAGCAGCATACGGTTCACTCCTGCATTAAAG   3182
+                     |              ||||  ||||.||         |.||||  |||  
+At_phyD         3506 T--------------TCTC--GCAGAAT---------TTCTGC--TAA--   3526
+
+Brapa_phy1      3183 GGACTGTGCG-TAT-----CATTTAAGGTAATGTCACGGATAGA-----A   3221
+                     |.|.|||.|| |||     |||..||||      |.||| ||||     |
+At_phyD         3527 GTATTGTCCGTTATGCACCCATGGAAGG------CTCGG-TAGAGCTCCA   3569
+
+Brapa_phy1      3222 GCTAT-----------AGGGAAAAGAATGAAGAGA---------GTAGAG   3251
+                     .||||           |...|||.|..|||.| ||         |||...
+At_phyD         3570 TCTATGCCCGACTCTGAACCAAATGGCTGACG-GATTCTCCGCTGTACGT   3618
+
+Brapa_phy1      3252 CTAGAGTTCAGGATAATACACCCG---GCACCGGGA-------CTGCCTG   3291
+                     .|.||||||||.||      ..||   ||| .||||       |.|||.|
+At_phyD         3619 TTGGAGTTCAGAAT------GGCGTGTGCA-GGGGAAGGTGTGCCGCCAG   3661
+
+Brapa_phy1      3292 ACGATCTAGTAAG----AGAGATGTTTC-----AGCCTTTGA-GGA-AAG   3330
+                            ||.|||    |||.|||||.|     ||||   || ||| |||
+At_phyD         3662 -------AGAAAGTGCAAGACATGTTCCATAGTAGCC---GATGGACAAG   3701
+
+Brapa_phy1      3331 ATACATCAAGGGAAGGATTGGGACTA--------CACATAACACAGAAGA   3372
+                          ||.|  ||||||||.||||||        ||.|        ||||
+At_phyD         3702 -----TCCA--GAAGGATTAGGACTAAGCGTTTGCAGA--------AAGA   3736
+
+Brapa_phy1      3373 TGGTGAAACTCATGGAGGGAGGAACGTTGAGATACTTGAGAGAATCGGAA   3422
+                     |..||||.||.|||.|.|||||  .|||.|| |||.|.|||||||..|||
+At_phyD         3737 TTTTGAAGCTGATGAACGGAGG--GGTTCAG-TACATAAGAGAATTCGAA   3783
+
+Brapa_phy1      3423 ATGTCAGCTTTTGTAATC---------CTCGCAGAATTTCC---ATTGCT   3460
+                     ...||...|||..|||||         |||.|.|   ||||   |.||  
+At_phyD         3784 CGCTCTTATTTCCTAATCGTTATCGAACTCCCGG---TTCCTCTAATG--   3828
+
+Brapa_phy1      3461 TTGA--ATGCAACTCTCCAAG-GTCTCAATAAATAATTGAAT--------   3499
+                     .|||  |||| .||||.||.| ||..||.|.|||..||..||        
+At_phyD         3829 ATGATGATGC-CCTCTTCATGAGTGGCATTGAATGTTTTGATTTTGGTCC   3877
+
+Brapa_phy1      3500 ------------AAATAATCGGACGTCACTGGATTTCACA-----TAAAT   3532
+                                 ||      |||.|| |||   |||...|     ||.||
+At_phyD         3878 GGGTAGGTTTAGAA------GGAAGT-ACT---TTTGCTACGGGGTACAT   3917
+
+Brapa_phy1      3533 GTA----TGTTAGTTACTGT----AACATAAATATAGG-----------A   3563
+                     |||    |..||||||..||    |||.|   |.|.||           |
+At_phyD         3918 GTAAGAGTAGTAGTTATAGTTGGGAACTT---TTTTGGTTGATTCCCTTA   3964
+
+Brapa_phy1      3564 CGTTAATG--TAATAATATA----CATAC---------TAGATTTTGACC   3598
+                     ||.| .||  ||.||.||||    ||.||         ||||.|.|||  
+At_phyD         3965 CGCT-GTGTATATTATTATAGTCTCAGACTCTCAGTCATAGAATGTGA--   4011
+
+Brapa_phy1      3599 CTTCAAGCGCG-GGTTGTTGGATTATATTATAATA------CTAGGTGTA   3641
+                             |.| .||||||.| |.|||.|.|||||      ||..|.|||
+At_phyD         4012 --------GAGTAGTTGTTTG-TGATAATGTAATATCTTTCCTCTGCGTA   4052
+
+Brapa_phy1      3642 TTGC----CCGCGATGCGGGCTT---AAACA   3665
+                     |.||    .||.||    |||||   |||||
+At_phyD         4053 TAGCTGGTTCGTGA----GGCTTCTAAAACA   4079
+
+
+#---------------------------------------
+#---------------------------------------

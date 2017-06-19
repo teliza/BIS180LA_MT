@@ -1,0 +1,354 @@
+########################################
+# Program: water
+# Rundate: Tue  9 May 2017 15:17:59
+# Commandline: water
+#    [-asequence] At_phytochromes.fa
+#    [-bsequence] TomatoPhyA.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile At_TomatoPhyA.fa.water
+# Align_format: srspair
+# Report_file: At_TomatoPhyA.fa.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: At_phyA
+# 2: Tomato_PHYA
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3984
+# Identity:    2742/3984 (68.8%)
+# Similarity:  2742/3984 (68.8%)
+# Gaps:         417/3984 (10.5%)
+# Score: 9441.5
+# 
+#
+#=======================================
+
+At_phyA           11 TGTGTTAGGGAGCACAAATAATAGAGAGGCGTAGCAC-------------     47
+                     |.|||||||     .||||..|.|||| |.|.|.|||             
+Tomato_PHYA       87 TATGTTAGG-----TAAATGTTGGAGA-GTGAAACACCAAAAACTGTTGT    130
+
+At_phyA           48 ---------AAGAGAGAAGGTGGTGATCGAGGCCAAGATTT---AGAAT-     84
+                              |.||..|||..||..|||      |.|.||||   ||.|| 
+Tomato_PHYA      131 GATTATTATATGAATGAAAATGTAGAT------CCATATTTTGCAGTATC    174
+
+At_phyA           85 -----TTAACT-----ATA-----ACA---------------AAAAGCCT    104
+                          ||||.|     |||     |||               ||||| .|
+Tomato_PHYA      175 AGCTCTTAATTCTCTCATATTCTGACACCCTTTTCTCCCTTGAAAAG-AT    223
+
+At_phyA          105 CTGACGAGTG-TGACTAGTCACAAGATCTGATCATGGCTTCTTG-AAACT    152
+                     ..||.|| || ||.||  ||||..||  ||..|||..||||.|| .||||
+Tomato_PHYA      224 AAGAGGA-TGATGTCT--TCACGTGA--TGTCCATAACTTCCTGTTAACT    268
+
+At_phyA          153 TCTTCTTC---------------------------------TTCT--TTC    167
+                     |.||.|||                                 |.||  ||.
+Tomato_PHYA      269 TGTTATTCGAGAGCTGCACGACAAATGAAGATTGAAGGTTATGCTAATTT    318
+
+At_phyA          168 T------------------TCTCTTT--AAAGGAAAAAA-----------    186
+                     |                  |.|.|||  ||||||||.||           
+Tomato_PHYA      319 TGGGATGACACCAAATAACTATGTTTGGAAAGGAAACAATGGAGCAACTC    368
+
+At_phyA          187 ---------------------------------------------ATGTC    191
+                                                                  |||||
+Tomato_PHYA      369 ACTTGTTTCTATTATTTTGTATGTTCTATTTAGATTTGAGTCGAGATGTC    418
+
+At_phyA          192 AGGC-TCTAGGCCGACTCAGTCCTC-------TGAGGGCTCAAGGCGATC    233
+                      |.| ||.||.||.|..||.||.||       |.|    ||||   ||||
+Tomato_PHYA      419 -GTCTTCAAGACCTAGCCAATCTTCCACCACTTCA----TCAA---GATC    460
+
+At_phyA          234 AAGGCACAGCGCTAGGATCATTGCGCAGACCACTGTAGATGCGAAACTCC    283
+                     ||.||||||.|||||||||.||||.||||||.||.|||||||.||.||.|
+Tomato_PHYA      461 AAAGCACAGTGCTAGGATCGTTGCACAGACCTCTATAGATGCAAAGCTGC    510
+
+At_phyA          284 ATGCTGATTTTGAGGAGTCAGGCAGCTCCTTTGATTACTCAACCTCAGTG    333
+                     ||||.||.||||||||||||||....||||||||.||.||||.|||||||
+Tomato_PHYA      511 ATGCAGACTTTGAGGAGTCAGGTGATTCCTTTGACTATTCAAGCTCAGTG    560
+
+At_phyA          334 ---------CGTGTCACTGGCCCGGTTGTGGAGAATCAGCCACCAAGGTC    374
+                              .|||||.||||   .|.||.|||.||      |||||.|||
+Tomato_PHYA      561 AGGGTTACAAGTGTCGCTGG---AGATGAGGAAAA------ACCAAAGTC    601
+
+At_phyA          375 TGACAAAGTTACCACGACTTATCTTCATCATATACAGAAGGGAAAGCTGA    424
+                     .||||||||||||||..|.||.||||||||.||.||.|||||.|||.|.|
+Tomato_PHYA      602 AGACAAAGTTACCACCGCCTACCTTCATCAGATCCAAAAGGGCAAGTTTA    651
+
+At_phyA          425 TTCAGCCCTTCGGTTGTTTACTTGCCTTGGATGAGAAGACCTTCAAAGTT    474
+                     |.|||||.||.||||||.|..|.|||.||||||||||.||.||.||.||.
+Tomato_PHYA      652 TCCAGCCATTTGGTTGTCTGTTAGCCCTGGATGAGAAAACATTAAAGGTC    701
+
+At_phyA          475 ATTGCATACAGCGAGAATGCATCTGAGCTGTTGACAATGGCCAGTCATGC    524
+                     ||.||||.|||.||||||||..||||..||.||||.||||..||.|||||
+Tomato_PHYA      702 ATAGCATTCAGTGAGAATGCCCCTGAAATGCTGACCATGGTTAGCCATGC    751
+
+At_phyA          525 AGTTCCTAGTGTTGGCGAACACCCTGTTCTAGGCATTGGGACAGATATAA    574
+                     .|||||.||||||||.||.||.||.|||||.|||||.|||||.|||||.|
+Tomato_PHYA      752 TGTTCCAAGTGTTGGTGAGCATCCAGTTCTTGGCATCGGGACTGATATCA    801
+
+At_phyA          575 GGAGTCTTTTCACTGCTCCTAGT-GCGTCTGCATTGCAGAAAGCCCTTGG    623
+                     |.|...|.|||||||.||||||| ||| |.|||||||||||||||.|.||
+Tomato_PHYA      802 GAACGATCTTCACTGGTCCTAGTGGCG-CAGCATTGCAGAAAGCCTTGGG    850
+
+At_phyA          624 ATTTGGAGATGTCTCTCTTTTGAATCCCATTCTTGTGCACTGCAGGACTT    673
+                     .|||||.||.||.|||||.||.|||||..|.|||||.|||||.|..|.||
+Tomato_PHYA      851 GTTTGGGGAGGTTTCTCTGTTAAATCCTGTCCTTGTTCACTGTAAAAATT    900
+
+At_phyA          674 CTGCAAAGCCCTTTTATGCGATTATCCACAGGGTTACAGGGAGCATCATC    723
+                     |||.||||||.||||||||.|||.|.||.|||||||||||.|||.|.|||
+Tomato_PHYA      901 CTGGAAAGCCATTTTATGCAATTGTTCATAGGGTTACAGGTAGCTTAATC    950
+
+At_phyA          724 ATCGACTTTGAACCCGTGAAGCCTTATGAAGTCCCCATGACAGCTGCTGG    773
+                     .|.||.|||||.||.||||||||.||||||||.||||||||.|||||.||
+Tomato_PHYA      951 CTTGATTTTGAGCCTGTGAAGCCCTATGAAGTACCCATGACTGCTGCAGG   1000
+
+At_phyA          774 TGCCTTACAATCATACAAGCTCGCTGCCAAAGCAATCACTAGGCTGCAAT    823
+                     .|||.|.||.|||||.||.||.||.||||||||.||.|||.|..||||.|
+Tomato_PHYA     1001 GGCCCTGCAGTCATATAAACTAGCAGCCAAAGCCATTACTCGCTTGCAGT   1050
+
+At_phyA          824 CTTTACCCAGCGGGAGTATGGAAAGGCTTTGTGATACAATGGTTCAAGAG    873
+                     |.||.|||||.||.|||||||||||.||.|||||.|||||||||||.|||
+Tomato_PHYA     1051 CCTTGCCCAGTGGCAGTATGGAAAGACTCTGTGACACAATGGTTCAGGAG   1100
+
+At_phyA          874 GTTTTTGAACTCACGGGGTATGACAGGGTGATGGCTTATAAGTTTCATGA    923
+                     ||||||||||||||.||.||||||||||||||||..|||||||||||.||
+Tomato_PHYA     1101 GTTTTTGAACTCACAGGTTATGACAGGGTGATGGGATATAAGTTTCACGA   1150
+
+At_phyA          924 AGATGATCACGGTGAGGTTGTCTCCGAGGTTACAAAACCTGGGCTGGAGC    973
+                     .||||||||.||.|||||.||.||.|||.|.|||||.|||||.||.||||
+Tomato_PHYA     1151 GGATGATCATGGAGAGGTGGTGTCTGAGATCACAAAGCCTGGCCTCGAGC   1200
+
+At_phyA          974 CTTATCTTGGGCTGCATTATCCTGCCACCGACATCCCTCAAGCAGCCCGT   1023
+                     ||||.|||||..|.|||||||||||.||.||.||.||.||.||.||.||.
+Tomato_PHYA     1201 CTTACCTTGGTTTACATTATCCTGCTACAGATATTCCACAGGCTGCACGG   1250
+
+At_phyA         1024 TTTCTGTTTATGAAGAACAAGGTCCGGATGATAGTTGATTGCAATGCAAA   1073
+                     |||.|||||||||||||.||||||||.|||||...|||||||...|||||
+Tomato_PHYA     1251 TTTTTGTTTATGAAGAATAAGGTCCGAATGATTTGTGATTGCCGAGCAAA   1300
+
+At_phyA         1074 ACATGCTAGGGTGCTTCAAGATGAAAAGCTTTCCTTTGACCTTACCTTGT   1123
+                     .||||..|.|||..|.||||||||.||||||.|.|||||..|.||.||||
+Tomato_PHYA     1301 GCATGTGAAGGTAGTCCAAGATGAGAAGCTTCCATTTGATTTAACATTGT   1350
+
+At_phyA         1124 GTGGCTCCACCCTTAGAGCACCGCACAGCTGCCATTTGCAGTACATGGCC   1173
+                     |.|||||.||.|||||.||.||.|||..|||||||||.|||||.||||..
+Tomato_PHYA     1351 GCGGCTCTACTCTTAGGGCCCCTCACTACTGCCATTTACAGTATATGGAG   1400
+
+At_phyA         1174 AACATGGATTCAATTGCATCTCTGGTTATGGCGGTTGTAGTTAACGAGGA   1223
+                     ||||||.|||||||||||||.||.||.|||||.|||||.||.||.||.|.
+Tomato_PHYA     1401 AACATGAATTCAATTGCATCACTTGTAATGGCAGTTGTGGTCAATGACGG   1450
+
+At_phyA         1224 AGATGGAGAAGG-GGATGCTCCTGATGCTACTACACAGCCTCAAAAGAGA   1272
+                     .||||.|||||| |.|.||||    ||.|.||.||||..|||||||.|||
+Tomato_PHYA     1451 GGATGAAGAAGGAGAAAGCTC----TGATTCTTCACAATCTCAAAAAAGA   1496
+
+At_phyA         1273 AAGAGACTATGGGGTTTAGTGGTTTGTCACAATACGACTCCGAGGTTTGT   1322
+                     ||.||.||||||||..|.||.|||||.|||||.|||||.||.|||||.||
+Tomato_PHYA     1497 AAAAGGCTATGGGGCCTGGTTGTTTGCCACAACACGACCCCAAGGTTCGT   1546
+
+At_phyA         1323 TCCATTTCCTCTCAGGTATGCCTGTGAGTTTCTAGCTCAAGTGTTTGCCA   1372
+                     |||.|||||.||.||||||||.|||||||||||.||.|||||.|||||||
+Tomato_PHYA     1547 TCCCTTTCCACTGAGGTATGCATGTGAGTTTCTTGCACAAGTCTTTGCCA   1596
+
+At_phyA         1373 TACACGTCAATAAGGAGGTGGAACTCGATAACCAGATGGTGGAGAAGAAC   1422
+                     ||||||||||.|||||..|||||.|.||.||.||..|..|.|||||.||.
+Tomato_PHYA     1597 TACACGTCAACAAGGAACTGGAATTGGAAAATCAATTCCTTGAGAAAAAT   1646
+
+At_phyA         1423 ATTTTGCGCACGCAGACACTCTTGTGCGATATGCTGATGCGTGATGCTCC   1472
+                     |||.||||.||.|||||.||||||||.||||||||||||||.||||||||
+Tomato_PHYA     1647 ATTCTGCGTACTCAGACTCTCTTGTGTGATATGCTGATGCGAGATGCTCC   1696
+
+At_phyA         1473 ACTGGGTATTGTGTCGCAAAGCCCCAACATAATGGACCTTGTGAAATGTG   1522
+                     .||.|||||.|||||.||.|||||||||||.|||||.|||||.|||||||
+Tomato_PHYA     1697 CCTAGGTATCGTGTCACAGAGCCCCAACATTATGGATCTTGTCAAATGTG   1746
+
+At_phyA         1523 ATGGAGCAGCTCTCTTGTATAAAGACAAGAT--ATGGAAACTGGGAA-CA   1569
+                     ||||.||.|||.|..|.|||||..|.|||||  ||.|  |.|.|||| .|
+Tomato_PHYA     1747 ATGGTGCGGCTTTGCTCTATAAGAATAAGATACATCG--ATTAGGAATGA   1794
+
+At_phyA         1570 ACTCCAAGTGAGTTCCACCTGCAGGAGATAGCTTCATGGTTGTGTGAATA   1619
+                     || ||||||||.||.||.||||||||.||||..||||||.|.|||||.||
+Tomato_PHYA     1795 AC-CCAAGTGACTTTCAGCTGCAGGATATAGTATCATGGCTTTGTGAGTA   1843
+
+At_phyA         1620 CCACATGGATTCAACGGGTTTGAGCACTGATAGTTTGCATGACGCCGGGT   1669
+                     .||.|..|||||.||.||.|||||.||.|||||.|||.||||.||.||.|
+Tomato_PHYA     1844 TCATACAGATTCCACAGGCTTGAGTACGGATAGCTTGTATGATGCTGGTT   1893
+
+At_phyA         1670 TTCCTAGGGCTCTATCTCTCGGGGATTCGGTATGTGGGATGGCAGCTGTG   1719
+                     |||||.|||||||..||||.||.|||.|.||.|||||.||||||||||||
+Tomato_PHYA     1894 TTCCTGGGGCTCTTGCTCTTGGTGATGCAGTCTGTGGTATGGCAGCTGTG   1943
+
+At_phyA         1720 AGGATATC--ATCGAAAGACATGATTTTCTGGTTCCGTTCTCATACCGCT   1767
+                     ||.|||||  ||  ||.|||..|.|.|||||||||.|.||.||.||.|||
+Tomato_PHYA     1944 AGAATATCTGAT--AAGGACTGGCTGTTCTGGTTCAGGTCACACACTGCT   1991
+
+At_phyA         1768 GGTGAAGTGAGATGGGGAGGTGCGAAGCATGATCCAGATGATAGGGATGA   1817
+                     |.||||||.||||||||.|||||.||||||||.||.|.|||.|.||||||
+Tomato_PHYA     1992 GCTGAAGTTAGATGGGGTGGTGCAAAGCATGAACCTGGTGAGAAGGATGA   2041
+
+At_phyA         1818 TGCAAGGAGAATGCACCCAAGGTCATCGTTCAAGGCTTTCCTTGAAGTGG   1867
+                     ||..||||.||||||.||.||||||||.|||||.||.|||||.|||||.|
+Tomato_PHYA     2042 TGGCAGGAAAATGCATCCTAGGTCATCATTCAAAGCATTCCTGGAAGTTG   2091
+
+At_phyA         1868 TCAAGACAAGGAGTTTACCTTGGAAGGACTATGAGATGGATGCCATACAC   1917
+                     ||||||||||||||.||||.||||||||.||||||||||||||.||.|||
+Tomato_PHYA     2092 TCAAGACAAGGAGTATACCCTGGAAGGATTATGAGATGGATGCAATCCAC   2141
+
+At_phyA         1918 TCCTTGCAACTTATTTTGAGGAATGCTTTCAAGGATAGTGAAACTACTGA   1967
+                     ||.|||||.||.||..|.||.|||||||||||||||..|||      .|.
+Tomato_PHYA     2142 TCTTTGCAGCTCATACTAAGAAATGCTTTCAAGGATGCTGA------GGT   2185
+
+At_phyA         1968 TGTGAATACAAAGGTCATTTAC-TC-----GAAGCTAAATGATCTCAAAA   2011
+                     |||||||.||||...||.||.| ||     ||||||.||||||||.||.|
+Tomato_PHYA     2186 TGTGAATTCAAATACCAATTCCATCTATAAGAAGCTTAATGATCTAAAGA   2235
+
+At_phyA         2012 TTGATGGTATACAAGAACTAGAAGCTGTGACCAGTGAGATGGTTCGTTTA   2061
+                     ||||.||.||.||.|||||||||.|.|||||...|||.|||||.||.|||
+Tomato_PHYA     2236 TTGACGGAATGCAGGAACTAGAATCAGTGACTGCTGAAATGGTCCGCTTA   2285
+
+At_phyA         2062 ATTGAGACTGCTACGGTGCCAATATTGGCGGTTGATTCTGATGGACTGGT   2111
+                     |||||.||.|||...||.||.|||||.||.||||||..||||||.|.|||
+Tomato_PHYA     2286 ATTGAAACAGCTTTAGTTCCTATATTAGCAGTTGATGTTGATGGGCAGGT   2335
+
+At_phyA         2112 TAATGGTTGGAACACGAAAATTGCTGAGCTGACTGGTCTTTCGGTTGATG   2161
+                     ||||||.||||||||.|||||.|||||..|.|||||||||.|.|||||||
+Tomato_PHYA     2336 TAATGGATGGAACACAAAAATAGCTGAATTAACTGGTCTTCCTGTTGATG   2385
+
+At_phyA         2162 AAGCAATCGGGAAGCATTTCCTCACACTTGTTGAAGATTCTTCAGTGGAA   2211
+                     |||||||.|||||.|||.|.|||||.||.||.||.|||||.|||||.||.
+Tomato_PHYA     2386 AAGCAATTGGGAAACATCTTCTCACTCTCGTGGAGGATTCATCAGTTGAT   2435
+
+At_phyA         2212 ATCGTTAAAAGGATGCTAGAGAACGCATTAGAA-------GGAACTGAGG   2254
+                     |.|||.||.|.||||.|.||      |||||.|       |||| .||||
+Tomato_PHYA     2436 ACCGTGAATAAGATGTTGGA------ATTAGCATTGCAGGGGAA-AGAGG   2478
+
+At_phyA         2255 AGCAGAATGTCCAGTTTGAGATCAAGACACAT---CTGTCCAGGGCTGAT   2301
+                     |..|.|||||..|||||||.||.||.||||||   |.|||.||   .|||
+Tomato_PHYA     2479 AAAAAAATGTAGAGTTTGAAATAAAAACACATGGGCCGTCAAG---AGAT   2525
+
+At_phyA         2302 GCTGGGCCAATAAGTTTAGTTGTAAATGCATGCGCAAGTAGAGATCTCCA   2351
+                     .||.|.|||||.||.|||.|.||.||||||||.|||||.|.||||.|.|.
+Tomato_PHYA     2526 TCTAGTCCAATCAGCTTAATCGTGAATGCATGTGCAAGCAAAGATGTTCG   2575
+
+At_phyA         2352 TGAAAACGTGGTTGGGGTGTGTTTTGTAGCCCATGATCTTACTGGCCAGA   2401
+                     .||.||.||.||.||.|||||||||.|.||.||||||.|.|||||.||.|
+Tomato_PHYA     2576 GGATAATGTTGTGGGTGTGTGTTTTATGGCTCATGATATAACTGGACAAA   2625
+
+At_phyA         2402 AGACTGTGATGGACAAGTTTACGCGGATTGAAGGTGATTACAAGGCAATC   2451
+                     |.|...|.|||||||||||.||.||.||.||||||||.||.|..||.||.
+Tomato_PHYA     2626 AAAGCATCATGGACAAGTTCACCCGAATCGAAGGTGACTATAGAGCGATT   2675
+
+At_phyA         2452 ATCCAAAATCCAAACCCGCTGATCCCGCCAATATTTGGTACCGATGAGTT   2501
+                     |||||||||||..||||..|||||||.|||||||||||.||.|||.|.||
+Tomato_PHYA     2676 ATCCAAAATCCTCACCCATTGATCCCACCAATATTTGGCACTGATCAATT   2725
+
+At_phyA         2502 TGGATGGTGCACAGAGTGGAATCCAGCAATGTCAAAGTTAACCGGTTTGA   2551
+                     |||.|||||..|.||||||||..|.||||||.|.||||||||.||.|.|.
+Tomato_PHYA     2726 TGGCTGGTGTTCTGAGTGGAACACTGCAATGACCAAGTTAACTGGATGGC   2775
+
+At_phyA         2552 AGCGAGAGGAAGTGATTGACAAAATGCTCTTAGGAGAAGTATTTGGGACG   2601
+                     .|||.||.||.||.||.||.||||||||.|||||.||.||.||||||||.
+Tomato_PHYA     2776 GGCGTGATGATGTTATGGATAAAATGCTGTTAGGGGAGGTTTTTGGGACA   2825
+
+At_phyA         2602 CA-GAAGTCATGTTGTCGTCTAAAGAATCAAGAAGCCTTTGTAAACCTTG   2650
+                     || |.|| |.||.||.|||||.||||||||||||||.|||||||| .||.
+Tomato_PHYA     2826 CAGGCAG-CTTGCTGCCGTCTCAAGAATCAAGAAGCGTTTGTAAA-TTTC   2873
+
+At_phyA         2651 GGA-TTGTGCTGAACAATGCTGTGACCAGTCAAGATCCAGATAAAGTATC   2699
+                     ||| ||||.||.|||||||||.|.||..|||||||..|.||.||..|..|
+Tomato_PHYA     2874 GGAGTTGTACTAAACAATGCTATCACTGGTCAAGAATCTGAGAAGATTCC   2923
+
+At_phyA         2700 GTTTGCTTTCTTTACAAGAGGTGGCAAGTATGTGGAGTGTCTGTTGTGTG   2749
+                     .||||.|||||||.||.|....||.||.|||||||||||..|..|.||||
+Tomato_PHYA     2924 TTTTGGTTTCTTTGCACGTTACGGGAAATATGTGGAGTGCTTACTCTGTG   2973
+
+At_phyA         2750 TGAGTAAGAAACTGGACAGGAAA----GGTGTAGTGACAGGTGTCTTCTG   2795
+                     ||||.||.|    ||..||..||    ||||.|||.||.||..||||.||
+Tomato_PHYA     2974 TGAGCAAAA----GGTTAGATAAAGAGGGTGCAGTCACGGGACTCTTTTG   3019
+
+At_phyA         2796 TTTCCTGCAACTTGCCAGCCATGAGCTGCAGCAAGCGCTCCATGTTCAAC   2845
+                     |||||||||||||||.|||||||||.||||.|||||.||..|||||||||
+Tomato_PHYA     3020 TTTCCTGCAACTTGCAAGCCATGAGTTGCAACAAGCTCTTTATGTTCAAC   3069
+
+At_phyA         2846 GTTTAGCTGAGCGAACCGCAGTGAAGAGACT-AAAGGCTCTAGCATACAT   2894
+                     |.|||.|.||.|.|||.||..||||.|||.| ||||..| ||||.|||||
+Tomato_PHYA     3070 GATTATCAGAACAAACTGCGTTGAAAAGATTGAAAGTAT-TAGCTTACAT   3118
+
+At_phyA         2895 AAAAAGACAGATCAGGAATCCGCTATCTGGGATCATGTTTACAAGGAAAA   2944
+                     ||..||.||.||.||||||||.||.||||||||.||.||..|..||||.|
+Tomato_PHYA     3119 AAGGAGGCAAATTAGGAATCCTCTTTCTGGGATTATATTCTCTCGGAAGA   3168
+
+At_phyA         2945 TGATAGAGGGTACTGAATTAGGACCAGAGCAAAGACGGATTTTGCAAACT   2994
+                     ||.|||||||.|||...||.||...||||||.|.|...||..||||.||.
+Tomato_PHYA     3169 TGCTAGAGGGGACTAGCTTGGGCGAAGAGCAGAAAAATATACTGCATACA   3218
+
+At_phyA         2995 AGCGCGTTATGTCAGAAGCAACTAAGCAAGATCCTCGATGATTCGGATCT   3044
+                     ||.||....||||||...||.||.|.|||.||.||.||||||.|.|||||
+Tomato_PHYA     3219 AGTGCACAGTGTCAGCGTCAGCTCAACAAAATTCTTGATGATACAGATCT   3268
+
+At_phyA         3045 TGAAAGCATCATTGAAGGATGCTTGGATTTGGAAATGAAAGAATTCACCT   3094
+                     |||.||||||||.||.||.|..||||||.||||.|||...||.|     |
+Tomato_PHYA     3269 TGATAGCATCATAGATGGTTATTTGGATCTGGAGATGCTCGAGT-----T   3313
+
+At_phyA         3095 TAA-----ATGAAGTGTTGACTGCTTCCACAAGTCAAGTAATGATGAAGA   3139
+                     |||     |||||||.|||...||.||.|.|||||||||.||||||||||
+Tomato_PHYA     3314 TAAGCTGCATGAAGTATTGGTAGCATCTATAAGTCAAGTCATGATGAAGA   3363
+
+At_phyA         3140 GTAACGGAAAGAGTGTTCGGATAACAAATGAGACCGGAGAAGAAGTAATG   3189
+                     |.||||||||||.|.|...|||..|.|||||.|..|..|||||..|    
+Tomato_PHYA     3364 GCAACGGAAAGAATATAATGATCTCGAATGACATGGTTGAAGATCT----   3409
+
+At_phyA         3190 TC----TGACACTTTGTATGGAGACAGTATTAGGCTTCAACAAGTCTTGG   3235
+                     ||    |||.|||||.||.|||||.|||...|||||||||||||||.|.|
+Tomato_PHYA     3410 TCTTAATGAAACTTTATACGGAGATAGTCCGAGGCTTCAACAAGTCCTTG   3459
+
+At_phyA         3236 CAGATTTCATGCTGATGGCTGTAAACTTTACACCATCCGGAGGTCAGCTA   3285
+                     |..|.||..||.|..|..||||.|||..|||||||...||.||.|||||.
+Tomato_PHYA     3460 CTAACTTTTTGTTAGTATCTGTGAACGCTACACCAAGTGGCGGCCAGCTT   3509
+
+At_phyA         3286 ACTGTTTCAGCTTCCCTG-AGG------AAGGATCAGCTCGGGCGTTCTG   3328
+                     |.|.||||||       | |||      ||.||||...|.||....||||
+Tomato_PHYA     3510 AGTATTTCAG-------GCAGGCTAACAAAAGATCGTATAGGAGAATCTG   3552
+
+At_phyA         3329 TGCATCTTGCTAATCTAGAGA--TCAGGTTAACGCATACCGGAGCTGGGA   3376
+                     |.||.|||||| .|||.| ||  |||||.|||..|||||.||.|.|||..
+Tomato_PHYA     3553 TTCAGCTTGCT-CTCTTG-GAATTCAGGATAAGACATACAGGGGGTGGAG   3600
+
+At_phyA         3377 TACCTGAGTTTTTACTAAACCAAATGTTTGGGACTGAGGAAGATGTGTCA   3426
+                     |.||.||....||.||...||||||||||||.|.|||.|..||||..||.
+Tomato_PHYA     3601 TGCCAGAAGAATTGCTTGGCCAAATGTTTGGTAGTGAAGCCGATGCATCT   3650
+
+At_phyA         3427 GAAGAAGGATTGAGCTTAATGGTTAGCCGGAAACTGGTGAAGCTGATGAA   3476
+                     ||||||||..|.||||||.|.||.|||.|.||||||||.|||||||||||
+Tomato_PHYA     3651 GAAGAAGGGATCAGCTTACTTGTCAGCAGAAAACTGGTCAAGCTGATGAA   3700
+
+At_phyA         3477 TGGAGATGTTCAGTACTTGAGACAAGCTGGGAAATCAAGTTTCATTATCA   3526
+                     |||.||.||||||||..|.|||.|.||||||.||||||.|||||||||..
+Tomato_PHYA     3701 TGGGGAAGTTCAGTATCTAAGAGAGGCTGGGCAATCAACTTTCATTATAT   3750
+
+At_phyA         3527 CTGCGGAACTCGCTGCAGCAAACAAGT----------------AGTCCCC   3560
+                     |.|..||||||||.|..||.|.|||.|                |||.|||
+Tomato_PHYA     3751 CCGTTGAACTCGCAGTGGCTACCAACTCAAGCTGATGATTTTCAGTACCC   3800
+
+At_phyA         3561 ----AAAAGAAAAGGGGTCTGGCTTGATATAAAATA---------GTC--   3595
+                         ||         ||||         .||||.||         |||  
+Tomato_PHYA     3801 TCTTAA---------GGTC---------CTAAACTAATTCTGCAGGTCTG   3832
+
+At_phyA         3596 ---ACTGGTTG-----TTC---TTTGCTTGTAA-CTTTCCTTATCGCTTT   3633
+                        |.|||..|     |||   ||      ||| .|||||   ||..|||
+Tomato_PHYA     3833 TATAGTGGAAGACGATTTCAAGTT------TAAGATTTCC---TCTGTTT   3873
+
+At_phyA         3634 TGTTTTCGTT-TTCAAATTTCAGTAACGATGAAATATCCATCCATTTACA   3682
+                     |||..||||| ||...||||                |||.|||       
+Tomato_PHYA     3874 TGTGCTCGTTCTTGTCATTT----------------TCCCTCC-------   3900
+
+At_phyA         3683 TCTTCTGTTGAACTCTTTTC--TGAAGCTGTAAA   3714
+                     |||| ||||..|.|.|||.|  ||.|..|.||||
+Tomato_PHYA     3901 TCTT-TGTTACATTGTTTGCCTTGGATTTTTAAA   3933
+
+
+#---------------------------------------
+#---------------------------------------
